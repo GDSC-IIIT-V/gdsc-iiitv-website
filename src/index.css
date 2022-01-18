@@ -4,3 +4,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: avenir;
+  src: url("./assets/fonts/avenir.otf");
+}
+
+@font-face {
+  font-family: SeoulNamsan;
+  src: url('./assets/fonts/SeoulNamsanCondensed-Medium.ttf');
+}
