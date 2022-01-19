@@ -1,0 +1,206 @@
+.hero-container {
+  /* background-color: #292C5D;  */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.hero-column {
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  width: 50%;
+}
+
+.hero-text-container {
+  flex-direction: column;
+  padding-top: 20%;
+  justify-content: center;
+  text-align: left;
+}
+
+.hero-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 603px;
+  height: 78px;
+  padding-left: 12%;
+}
+
+.hero-logoimg {
+  width: 122px;
+  height: 78px;
+}
+
+.hero-name-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 78px;
+  padding-left: 4%;
+}
+
+.hero-name-text1 {
+  width: 461px;
+  height: 41px;
+
+  font-family: avenir;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #454545;
+}
+
+.hero-name-text2 {
+  width: 461px;
+  height: 22px;
+  padding-left: 1%;
+  font-family: avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #474747;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 633px;
+  height: 105px;
+  padding-top: 4%;
+  padding-left: 14%;
+  font-family: SeoulNamsan;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+letter-spacing: 0.75px;
+line-height: 18.5px;
+
+color: #525252;
+}
+
+.line-img{
+    position: absolute;
+    padding-top: 90%;
+    padding-bottom: 10%;
+}
+/* animation css*/
+
+.clm2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.loader-wrapper {
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+  }
+  
+  .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .t1 {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+
+    animation: 13.5s linear load1;
+   
+  }
+  
+  .t2 {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    animation: 9s linear load2;
+    
+  }
+  
+  .t3 {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    animation: 12.5s linear load3;
+    
+  }
+  
+  .t4 {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+  
+    animation: 10.5s linear load4;
+    
+  }
+  
+  @keyframes load1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(1080deg);
+    }
+  }
+  
+  
+  @keyframes load2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
+  @keyframes load3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(1080deg);
+    }
+  }
+  
+  @keyframes load4 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
+  

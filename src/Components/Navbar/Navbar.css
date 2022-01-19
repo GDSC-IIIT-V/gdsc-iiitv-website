@@ -1,0 +1,67 @@
+.containerr {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    /*To fix navbar to the top of page uncomment the following code*/
+    /* padding-bottom: 10px;
+    position:fixed;
+
+    width: 100%; */
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .part1 {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .part2 {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .logotext{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .linktext {
+    width: 69px;
+    height: 26px;
+  
+    font-family: avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #575757;
+    text-decoration: none;
+  }
+
+  .txtebold{
+    font-family: avenir-bold;
+  }
+
+  .txtbold{
+      font-weight:600;
+  }
