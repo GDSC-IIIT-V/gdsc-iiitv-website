@@ -2,8 +2,9 @@
   /* background-color: #292C5D;  */
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   padding-top: 5%;
+  height: 700px;
 }
 
 .hero-column {
@@ -11,6 +12,7 @@
   justify-content: space-between;
   text-align: left;
   width: 50%;
+
 }
 
 .hero-text-container {
@@ -89,8 +91,7 @@ color: #525252;
 
 .line-img{
     position: absolute;
-    padding-top: 90%;
-    padding-bottom: 10%;
+    padding-left: 35.5%;
 }
 /* animation css*/
 
