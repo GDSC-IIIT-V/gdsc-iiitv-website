@@ -1,0 +1,61 @@
+.events {
+  margin-top: 8%;
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-family: avenir;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.125rem;
+    text-align: center;
+    color: #2b4e62;
+  }
+  &__curvelines {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 15%;
+    &__line1,
+    &__line2,
+    &__line3 {
+      position: absolute;
+      width: 100vw;
+    }
+    &__line1 {
+      top: -3vh;
+    }
+    &__line2 {
+      top: 1vh;
+    }
+    &__line3 {
+      top: 5vh;
+    }
+  }
+  &__container {
+    &__upper {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 4%;
+      &__event1 {
+        width: 27%;
+      }
+      &__event2 {
+        width: 27%;
+      }
+      &__event3 {
+        width: 27%;
+      }
+    }
+    &__lower {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 4%;
+      &__event1 {
+        width: 27%;
+      }
+      &__event2 {
+        width: 27%;
+      }
+    }
+  }
+}
