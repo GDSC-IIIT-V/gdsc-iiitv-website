@@ -52,8 +52,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <img src={heroline} alt="line" className="line-img" />
       </div>   
+      <img src={heroline} alt="line" className="line-img" />
+
     </>
   );
 };

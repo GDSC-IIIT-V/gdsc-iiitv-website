@@ -2,15 +2,16 @@ import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import Team from "./Components/Team/Team";
 
 function App() {
   return (
   <>
-  
   <Navbar />
   <Hero />
-  <AboutUs />
 
+  <AboutUs />
+  <Team />
   </>
   );
 }

@@ -1,0 +1,130 @@
+.leads-container {
+  margin-top: 5%;
+}
+.leads-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: avenir;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  text-align: center;
+  color: #2b4e62;
+}
+
+.leads-content-wrapper {
+  padding-left: 1%;
+  padding-right: 1%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  padding-top: 3%;
+  height: 600px;
+}
+
+.leads-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 300px;
+  padding-top: 3%;
+}
+
+.imagee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% 50% 50% 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.leads-image {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50% 50% 50% 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+}
+.afterhover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s all;
+}
+
+.icons{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  opacity: 0;
+  
+  border-radius: 20% 20% 20% 20%;
+  transition: 0.5s all;
+}
+
+.iconimg{
+    width: 56px;
+    height: 56px;
+}
+
+/* hover effects */
+
+.imagee:hover .leads-image:nth-child(1) {
+  filter: blur(5px);
+  border-color: rgba(251, 38, 10, 0.8) rgba(0, 164, 83, 0.8) rgba(255, 189, 0, 0.8)
+     rgba(60, 122, 252, 0.8);
+    border-style: solid;
+    border-width: 5px;
+}
+
+.imagee:hover .icon {
+  opacity: 1;
+}
+
+.leads-name {
+  width: 191px;
+  height: 33px;
+  padding-top: 18px;
+  font-family: SeoulNamsan;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.leads-position {
+  width: 191px;
+  height: 33px;
+  font-family: SeoulNamsan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
