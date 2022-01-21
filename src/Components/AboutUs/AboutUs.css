@@ -1,0 +1,393 @@
+@font-face {
+    font-family: Avenir;
+    src: url("/src/assets/fonts/avenir.otf");
+}
+
+
+body{
+    overflow-x: hidden;
+}
+.box1 {
+    height: 290px;
+    width: 390px;
+    /* border: 2px solid black; */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    z-index: 10;
+    animation-name: highlight1;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes highlight1 {
+    from{
+        border: none
+    }
+    to{
+        border: 4px solid #FFBD00;
+    }
+}
+.box2 {
+    height: 290px;
+    width: 390px;
+    /* border: 2px solid black; */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    z-index: 10; 
+    animation-name: highlight2;
+    animation-delay: 7s;
+    animation-duration: 1s;   
+    transition-timing-function: ease-in-out;
+
+}
+@keyframes highlight2 {
+    from{
+        border: none
+    }
+    to{
+        border: 4px solid #FB260A;
+    }
+}
+.box3 {
+    height: 290px;
+    width: 390px;
+    /* border: 2px solid black; */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    z-index: 10;
+    animation-name: highlight3;
+    animation-delay: 12s;
+    animation-duration: 1s; 
+    transition-timing-function: ease-in-out;
+}
+@keyframes highlight3 {
+    from{
+        border: none
+    }
+    to{
+        border: 4px solid #3C7AFC;
+    }
+}
+.topCont {
+    height: 300px;
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.bottomCont {
+    height: 300px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 500px;
+}
+
+h4{
+    font-size: 22px;
+    text-align: right;
+    font-family: Avenir;
+    /* line-height: 22px; */
+}
+p{
+    font-size: 20px;
+    font-family: Avenir;
+    /* line-height: 20px; */
+}
+
+/* styling the components */
+#rect13 {
+    position: absolute;
+    width: 58px;
+    height: 89px;
+    left: 135px;
+    margin-top: 12.83%;
+}
+#rect14 {
+    position: absolute;
+    width: 17px;
+    height: 210px;
+    left: 62px;
+    margin-top: 7.75%;
+
+    background: #FB260A;
+    border-radius: 75px;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+#sphere3{
+    position: absolute;
+    z-index: 10;
+    left: 44.8%;
+    margin-top: 14%;
+    animation-name: greenMove;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    opacity: 0;
+}
+
+@keyframes greenMove {
+    0%{
+        transform: rotate(-90deg) translateY(0%);
+        opacity: 0.3;
+    }
+    25%{
+        transform: translateY(-80%);
+        opacity: 1;
+    }
+    75%{
+        transform: translateY(-80%) translateX(940%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(1010%) rotateZ(90deg);
+        opacity: 0;
+        /* display: none; */
+    }
+}
+
+#rect21{
+    position: absolute;
+    width: 58px;
+    height: 89px;
+    left: 870px;
+    margin-top: 12.85%;
+}
+
+#rect22{
+    position: absolute;
+    width: 17px;
+    height: 505px;
+    left: 1135px;
+    margin-top: 0%;
+
+    background: #00A453;
+    border-radius: 75px;
+    transform: rotate(90deg);
+}
+
+#rect20{
+    position: absolute;
+    width: 58px;
+    height: 89px;
+    left: 1360px;
+    margin-top: 12.86%;
+}
+
+#sphere{
+    position: absolute;
+    width: 53px;
+    height: 45px;
+    left: 0.5%;
+    margin-top: 12.1%;
+    /* top: 22.1%; */
+    z-index: 10;
+    animation-name: redMove;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    /* animation-name: dhruv2;
+    animation-delay: 1s;
+    animation-duration: 1s; */
+}
+
+@keyframes redMove{
+    0%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(220%);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(278%) rotateZ(90deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(278%) translateY(75%) rotateZ(90deg);
+        opacity: 0;
+        display: none;
+    }
+}
+ #sphere2{
+    position: absolute;
+    /* top: 68.99%; */
+    left: 23.5%;
+    z-index: 10;
+    animation-name: blueMove;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    /* display: none; */
+    opacity: 0;
+
+ }
+
+ @keyframes blueMove{
+    0%{
+        transform: rotateZ(90deg) translateY(0%);
+        opacity: 0.3;
+    }
+    25%{
+        transform: translateY(62%);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(62%) translateX(930%);
+        opacity: 1
+    }
+    100%{
+        transform: translateX(1000%) rotateZ(-90deg);
+        opacity: 0;
+    }
+    /* 100%{
+        transform: translateY(62%) translateX(950%) translateY(-65%);
+        opacity: 0;
+        display: none;
+    }  */
+}
+/* Bottom tubes and lines styling */
+#sphere4{
+    position: absolute;
+    z-index: 10;
+    left: 89%;
+    animation-name: yellowMove;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+
+@keyframes yellowMove {
+    0%{
+        transform: rotateZ(90deg) translateY(0%);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(60%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(62%) translateX(600%);
+        opacity: 1;
+        display: none;
+    }
+}
+
+#yellowExtension{
+    position: absolute;
+    width: 17px;
+    height: 267px;
+    left: 1957px;
+    margin-top: -4.5%;
+    
+    background: #FFBD00;
+    border-radius: 75px;
+    transform: matrix(0, 1, 1, 0, 0, 0);  
+}
+#yellowPipe{
+    position: absolute;
+    width: 505px;
+    height: 98px;
+    left: 1518px;
+    margin-top: -2.2%;    
+    transform: rotateZ(360deg);
+}
+#rect17{
+    position: absolute;
+    width: 17px;
+    height: 505px;
+    left: 38%;
+    margin-top: -10.7%;
+    
+    background: #3C7AFC;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 75px;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+#rect18{
+    position: absolute;
+width: 58px;
+height: 98px;
+left: 458px;
+/* top: 648px; */
+margin-top: -2.18%;
+transform: rotateZ(360deg);
+}
+
+#rect19{ 
+    position: absolute;
+    width: 58px;
+    height: 98px;
+    left: 950px;
+    /* top: 648px; */
+    margin-top: -2.15%;
+
+    transform: rotateZ(360deg);
+}
+
+#rect15{
+    position: absolute;
+    width: 17px;
+    height: 76px;
+    left: 86%;
+    
+    background: #FFBD00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#rect16{
+    position: absolute;
+    width: 17px;
+    height: 267px;
+    left: 92.7%;
+    
+    background: #FFBD00;
+    color: #FFBD00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+    transform: matrix(0, 1, 1, 0, 0, 0);   
+}
+
+#line33{
+    position: absolute;
+    width: 408%;
+    height: 20%;
+    left: -155%;
+    margin-top: 1.5%;
+}
+#line34{
+    position: absolute;
+    width: 408%;
+    height: 20%;
+    left: -155%;
+    margin-top: 3%;
+
+}
+#line35{
+    position: absolute;
+    width: 408%;
+    height: 20%;
+    left: -155%;
+    margin-top: 4.2%;
+}

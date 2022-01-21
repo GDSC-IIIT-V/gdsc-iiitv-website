@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/images/Logo.svg";
 
+
 const Navbar = () => {
   return (
     <div className="containerr">
@@ -29,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <a href="#about" className="linktext txtbold">
+          <a href="#aboutUs" className="linktext txtbold">
             About Us
           </a>
         </div>
