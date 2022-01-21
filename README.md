@@ -1,6 +1,6 @@
 ## Static, React-based GDSC IIITV website.
 
-Steps to get started -
+Commands to get started -
 1. yarn
 2. yarn start
 
