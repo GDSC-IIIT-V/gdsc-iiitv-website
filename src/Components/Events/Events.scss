@@ -1,5 +1,6 @@
 .events {
   margin-top: 8%;
+  position: relative;
   &__title {
     display: flex;
     justify-content: center;
@@ -31,31 +32,23 @@
       top: 5vh;
     }
   }
-  &__container {
-    &__upper {
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 4%;
-      &__event1 {
-        width: 27%;
-      }
-      &__event2 {
-        width: 27%;
-      }
-      &__event3 {
-        width: 27%;
-      }
+  &__container{
+    width: 100vw;
+    position: absolute;
+    top: 100px;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 4%;
+    &__vert-line__left{
+      height: 25vh;
     }
-    &__lower {
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 4%;
-      &__event1 {
-        width: 27%;
-      }
-      &__event2 {
-        width: 27%;
-      }
+    &__vert-line__middle{
+      height: 18vh;
+    }
+    &__vert-line__right{
+      height: 17vh;
     }
   }
 }

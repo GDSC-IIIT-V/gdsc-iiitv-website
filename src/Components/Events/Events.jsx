@@ -1,4 +1,5 @@
 import Event from "./Event";
+import EventsColumn from "./EventsColumn";
 import EventsData from "./util/EventsData";
 import "./Events.scss";
 
@@ -24,45 +25,33 @@ const Events = () => {
         <img src={Line35} alt="line-35" className="events__curvelines__line3" />
       </div>
       <div className="events__container">
-        <div className="events__container__upper">
-          <div className="events__container__upper__event1">
-            <div className="events__container__upper__event1__vert-line"></div>
-            <div className="events__container__upper__event1__connector"></div>
-            <div className="events__container__upper__event1__event-data">
-              {eventComponents[0]}
-            </div>
-          </div>
-          <div className="events__container__upper__event2">
-            <div className="events__container__upper__event2__vert-line"></div>
-            <div className="events__container__upper__event2__connector"></div>
-            <div className="events__container__upper__event2__event-data">
-              {eventComponents[1]}
-            </div>
-          </div>
-          <div className="events__container__upper__event3">
-            <div className="events__container__upper__event3__vert-line"></div>
-            <div className="events__container__upper__event3__connector"></div>
-            <div className="events__container__upper__event3__event-data">
-              {eventComponents[2]}
-            </div>
-          </div>
-        </div>
-        <div className="events__container__lower">
-          <div className="events__container__lower__event1">
-            <div className="events__container__lower__event1__vert-line"></div>
-            <div className="events__container__lower__event1__connector"></div>
-            <div className="events__container__lower__event1__event-data">
-              {eventComponents[3]}
-            </div>
-          </div>
-          <div className="events__container__lower__event2">
-            <div className="events__container__lower__event2__vert-line"></div>
-            <div className="events__container__lower__event2__connector"></div>
-            <div className="events__container__lower__event2__event-data">
-              {eventComponents[4]}
-            </div>
-          </div>
-        </div>
+        <EventsColumn
+          className={{
+            topVertLine: "events__container__vert-line__left",
+            topConnector: "red",
+            bottomConnector: "blue",
+          }}
+          topEvent={eventComponents[0]}
+          bottomEvent={eventComponents[1]}
+        />
+        <EventsColumn
+          className={{
+            topVertLine: "events__container__vert-line__middle",
+            topConnector: "green",
+            bottomConnector: "red",
+          }}
+          topEvent={eventComponents[2]}
+          bottomEvent={eventComponents[3]}
+        />
+        <EventsColumn
+          className={{
+            topVertLine: "events__container__vert-line__right",
+            topConnector: "yellow",
+            bottomConnector: "green",
+          }}
+          topEvent={eventComponents[4]}
+          bottomEvent={eventComponents[5]}
+        />
       </div>
     </div>
   );
