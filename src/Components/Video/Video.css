@@ -1,0 +1,20 @@
+.wave {
+  position: relative;
+  top: 90rem;
+}
+.video-size {
+  position: relative;
+  top: 70rem;
+
+  width: 550px;
+  height: 350px;
+  /* border-radius: 10px; */
+  border: solid 10px blue;
+  border-radius: 10px;
+}
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column-reverse; */
+}
