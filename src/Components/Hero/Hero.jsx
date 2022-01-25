@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero-container">
-        <div className="hero-column">
+        <div className="hero-column clm1">
           <div className="hero-text-container">
             <div className="hero-name">
               <div className="hero-logo">
@@ -19,7 +19,7 @@ const Hero = () => {
               </div>
               <div className="hero-name-text">
                 <div className="hero-name-text1">
-                  Google Developer Student Clubs
+                  Google Developer Student Club
                 </div>
                 <div className="hero-name-text2">
                   Indian Institute Of Information Technology Vadodara
