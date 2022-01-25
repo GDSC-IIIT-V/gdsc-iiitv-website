@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+:root {
+  --text-color: rgb(250, 250, 250);
+  --shadow-color: hsla(4, 81%, 58%, 0.4);
+  --btn-color: hsl(210, 80%, 42%);
+  --bg-color: #ffffff;
+}
+
+.body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  position: absolute;
+  padding: 10px 20px;
+  border: none;
+
+  background: none;
+  cursor: pointer;
+  /*Colorchange code*/
+  margin-top: 95rem;
+  border-radius: 12px;
+  /* border-width: 0; */
+  background-color: #377af5;
+  animation-name: colorchange;
+  animation-duration: 8s;
+  transition: ease-in-out;
+  animation-iteration-count: infinite;
+  /* Till here */
+
+  font-family: 'Fira Sans';
+  font-weight: 900;
+  /* text-transform: uppercase; */
+  font-size: 30px;
+  color: var(--text-color);
+
+  background-color: var(--btn-color);
+  box-shadow: var(--shadow-color) 2px 2px 22px;
+
+  z-index: 0;
+  overflow: hidden;
+}
+/* Color change keyframe*/
+@keyframes colorchange {
+  0% {
+    background-color: #377af5;
+  }
+  25% {
+    background-color: #399953;
+  }
+  50% {
+    background-color: #d53e33;
+  }
+  100% {
+    background-color: #fbb300;
+  }
+}
+
+button:focus {
+  outline-color: transparent;
+  box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right::after,
+button::after {
+  content: var(--content);
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  padding: 40px 40px;
+  pointer-events: none;
+}
+
+button::after {
+  font-weight: 200;
+  top: -30px;
+  left: -20px;
+}
+
+/* bubbles */
+button::before {
+  content: '';
+  pointer-events: none;
+  opacity: 0.6;
+  background: radial-gradient(
+      circle at 20% 35%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 75% 44%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 46% 52%,
+      transparent 0,
+      transparent 4px,
+      var(--text-color) 5px,
+      var(--text-color) 6px,
+      transparent 6px
+    );
+
+  width: 100%;
+  height: 300%;
+  /* top: 0;
+  left: 0; */
+  position: absolute;
+  animation: bubbles 5s linear infinite both;
+}
+
+@keyframes bubbles {
+  from {
+    transform: translate();
+  }
+  to {
+    transform: translate(0, -66.666%);
+  }
+}
