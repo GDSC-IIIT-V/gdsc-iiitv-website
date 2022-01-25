@@ -1,0 +1,22 @@
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: -1;
+}
+
+span {
+  color: #666;
+  font-size: 12px;
+  display: block;
+  bottom: auto;
+  right: auto;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
