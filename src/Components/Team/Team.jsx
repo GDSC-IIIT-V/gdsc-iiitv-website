@@ -13,7 +13,7 @@ import cmt4 from "../../assets/images/Teams/cmt-4.svg";
 const Team = () => {
   return (
     <div>
-      <p className="Team-header">Our Team</p>
+      <h5 className="Team-header">Our Team</h5>
 
       <hr className="Team-hr1" />
       <hr className="Team-hr2" />
