@@ -53,7 +53,31 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
+  .events {
+    &__title {
+      margin-bottom: 4%;
+    }
+    &__curvelines {
+      display: none;
+    }
+    &__container {
+      width: 100vw;
+      position: relative;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0;
+      &__vert-line__left,
+      &__vert-line__middle,
+      &__vert-line__right {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) {
   .events {
     &__container {
       top: 82px;

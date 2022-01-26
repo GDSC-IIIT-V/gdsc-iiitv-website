@@ -1,11 +1,12 @@
 import Event from "./Event";
 import EventsColumn from "./EventsColumn";
 import EventsData from "./util/EventsData";
-import "./Events.scss";
 
 import Line33 from "../../assets/images/Line 33.svg";
 import Line34 from "../../assets/images/Line 34.svg";
 import Line35 from "../../assets/images/Line 35.svg";
+
+import "./Events.scss";
 
 const Events = () => {
   const eventComponents = EventsData.map((event) => (
@@ -44,6 +45,7 @@ const Events = () => {
           bottomEvent={eventComponents[3]}
         />
         <EventsColumn
+          isThirdCol={true}
           className={{
             topVertLine: "events__container__vert-line__right",
             topConnector: "yellow",

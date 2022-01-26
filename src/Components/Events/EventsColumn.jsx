@@ -1,20 +1,26 @@
 import "./EventsColumn.scss";
 
-const EventsColumn = (props) => {
+const EventsColumn = ({
+  isThirdCol = false,
+  className,
+  topEvent,
+  bottomEvent,
+}) => {
   const topVertLineClasses =
-    "event-col__vert-line " + (props.className.topVertLine || "");
+    "event-col__vert-line " + (className.topVertLine || "");
   const topConnectorClasses =
-    "event-col__connector " + (props.className.topConnector || "");
+    "event-col__connector " + (className.topConnector || "");
   const bottomConnectorClasses =
-    "event-col__connector " + (props.className.bottomConnector || "");
+    "event-col__connector " + (className.bottomConnector || "");
   return (
-    <div className="event-col">
+    // adding third column classes conditionally
+    <div className={`event-col ${isThirdCol ? "event-col__third-col" : ""}`}>
       <div className={topVertLineClasses}></div>
       <div className={topConnectorClasses}></div>
-      {props.topEvent}
+      {topEvent}
       <div className="event-col__vert-line"></div>
       <div className={bottomConnectorClasses}></div>
-      {props.bottomEvent}
+      {bottomEvent}
     </div>
   );
 };

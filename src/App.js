@@ -1,4 +1,5 @@
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import AboutUs from "./Components/AboutUs/AboutUs";
@@ -6,13 +7,12 @@ import Team from "./Components/Team/Team";
 import Events from "./Components/Events/Events";
 import Video from "./Components/Video/Video";
 import ContactUs from "./Components/ContactUs/ContactUs";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import { render } from "react-dom";
-import { Link } from "react-router-dom";
 import Alumini from "./Our team/Alumini";
 import Coreteam from "./Our team/Coreteam";
 import Mentors from "./Our team/Mentors";
 import Volunteers from "./Our team/Volunteers";
+
+import "./App.css";
 
 function App() {
   return (
@@ -22,13 +22,13 @@ function App() {
           path="/"
           element={
             <>
-              {/* <Navbar />
+              <Navbar />
               <Hero />
               <AboutUs />
-              <Team /> */}
+              <Team />
               <Events />
-              {/* <Video />
-              <ContactUs /> */}
+              <Video />
+              <ContactUs />
             </>
           }
         ></Route>
