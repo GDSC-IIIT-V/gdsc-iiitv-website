@@ -2,6 +2,7 @@ import React from 'react'
 import './Video.css'
 import YTbutton from './YTbutton'
 import video_wave from '../../assets/images/video_wave.png'
+
 function Video() {
   return (
     <>
