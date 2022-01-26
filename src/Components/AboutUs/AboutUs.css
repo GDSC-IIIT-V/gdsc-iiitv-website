@@ -317,6 +317,19 @@ p{
 
 /* Continue from tmrw - 1024px */
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
+    #line33{
+        margin-top: 5%;
+        height: 91px;
+    }
+    #line34{
+        height: 91px;
+        margin-top: 7%;
+    }
+    #line35{
+        height: 92px;
+        margin-top: 9%;
+       
+    }
     #redExt{
         display: none;
     }
@@ -371,7 +384,7 @@ p{
     #sphere4{
         height: 35px;
         width:35px;
-        left: 90.5%;
+        left: 90%;
     }
 
     #redWholePipe{
@@ -398,7 +411,7 @@ p{
     #yellowPipe{
         width: 120.6px;
         height: 60px;
-        left: 89.7%;
+        left: 89%;
         margin-top: -1.2%; 
     }
 
@@ -408,11 +421,11 @@ p{
             opacity: 0.3;
         }
         25%{
-            transform: translateY(70%);
+            transform: translateY(72%);
             opacity: 1;
         }
         75% {
-            transform: translateY(80%) translateX(780%);
+            transform: translateY(75%) translateX(780%);
             opacity: 1
         }
         100%{
@@ -735,6 +748,9 @@ p{
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1600px){
+    #yellowPipe{
+        left: 77.5%;
+    }
     #redExt{
         display: none;
     }
@@ -774,8 +790,20 @@ p{
         margin-top: 17.4%;
     }
     #sphere4{
-        left: 92%;
+        left: 89.7%;
         margin-top: 0.4%;
+    }
+    #line33{
+        margin-top: 6%;
+        height: 130px;
+    }
+    #line34{
+        margin-top: 8%;
+        height: 128px;
+    }
+    #line35{
+        margin-top: 10%;
+        height: 124px;
     }
     @keyframes blueMove{
         0%{
@@ -806,7 +834,7 @@ p{
         }
         100%{
             transform: translateY(74%) translateX(600%);
-            opacity: 1;
+            opacity: 0;
             display: none;
         }
     }
@@ -1464,7 +1492,7 @@ p{
     }
     .mainCont{
         justify-content: space-evenly;
-        width: 122%;
+        /* width: 122%; */
     }
     #redExt{
         display: none;
@@ -1473,26 +1501,32 @@ p{
         display: none;
     }
     .box1{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
 
     .box2{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
 
     .box3{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
     #redWholePipe{
-        width: 400px;
-        height: 80px;
-        margin-top: 29.5%;
+        width: 350px;
+        height: 60px;
+        margin-top: 32.5%;
         left: -18%;
     }
     #sphere{
@@ -1502,8 +1536,8 @@ p{
         display: none;
     }
     #greenWholePipe{
-        margin-top: 21.5%;
-        width: 424px;
+        margin-top: 24.5%;
+        width: 324px;
         height: 200.94px;
         left: 50%;
     }
@@ -1524,13 +1558,14 @@ p{
         display: none;
     }
     #blueWholePipe{
-        width: 424px;
+        width: 324px;
         height: 200.94px;
         left: 16%;
-        margin-top: -9%;
+        margin-top: -11%;
     }
     #yellowPipe{
-        left: 85%;
+        height: 60px;
+        left: 61%;
     }
 }
 
