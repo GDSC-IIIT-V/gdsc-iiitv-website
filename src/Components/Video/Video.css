@@ -5,16 +5,35 @@
 .video-size {
   position: relative;
   top: 70rem;
+  align-items: center;
 
   width: 550px;
   height: 350px;
   /* border-radius: 10px; */
-  border: solid 10px blue;
+  border: solid 10px #377af5;
   border-radius: 10px;
+  animation-name: colorchange;
+  animation-duration: 4s;
+  box-shadow: black 1.5px 1.5px 22px;
+}
+
+@keyframes colorchange {
+  0% {
+    border-color: #377af5;
+  }
+  25% {
+    border-color: #399953;
+  }
+  50% {
+    border-color: #d53e33;
+  }
+  100% {
+    border-color: #fbb300;
+  }
 }
 .video-wrapper {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* flex-direction: column-reverse; */
+  align-items: center;
+  flex-direction: column;
 }

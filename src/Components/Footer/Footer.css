@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Avenir;
+  src: url('/src/assets/fonts/avenir.otf');
+}
+
 .Futter {
   background: white;
+
   font-family: 'Roboto', sans-serif;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +14,7 @@
 }
 
 .names {
+  font-family: Avenir;
   color: #666;
   font-size: 12px;
   display: block;
@@ -16,7 +23,7 @@
   text-align: center;
 }
 
-.footer-links{
+.footer-links {
   color: #000000;
   text-decoration: none;
 }
