@@ -3,7 +3,7 @@ import './YTbutton.css'
 
 function YTbutton() {
   return (
-      
+      <div className='Ytbutton'>
         <button >
           <a href="https://www.youtube.com/channel/UCqwWPcBmTNtD6jvM6VIpvJg" target="_blank" rel="noreferrer">
           <div className="left" />
@@ -11,7 +11,7 @@ function YTbutton() {
           <div className="right" />
           </a>
         </button>
-        
+       </div> 
   )
 }
 

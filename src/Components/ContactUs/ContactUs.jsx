@@ -11,7 +11,7 @@ import Footer from '../Footer/Footer'
 
 function ContactUs() {
   return (
-    <div classname='main'>
+    <div classname='contactUs'>
       
       <div className='gdsc-image'>
         <img src={gdsc} alt='gdsc' />

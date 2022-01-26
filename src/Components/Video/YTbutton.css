@@ -7,14 +7,10 @@
   --bg-color: #ffffff;
 }
 
-.body {
+.Ytbutton {
   align-items: center;
   justify-content: center;
   display: flex;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 button {

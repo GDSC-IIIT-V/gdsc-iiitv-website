@@ -1,4 +1,4 @@
-body {
+.Futter {
   background: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   z-index: -1;
 }
 
-span {
+.names {
   color: #666;
   font-size: 12px;
   display: block;
@@ -16,7 +16,7 @@ span {
   text-align: center;
 }
 
-a {
+.footer-links{
   color: #000000;
   text-decoration: none;
 }
