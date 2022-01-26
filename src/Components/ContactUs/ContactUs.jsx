@@ -4,7 +4,7 @@ import './ContactUs.css'
 import linkedin from '../../assets/images/LinkedIn.png'
 import discord from '../../assets/images/discord.png'
 import twitter from '../../assets/images/twitter.png'
-import contactusdot from '../../assets/images/contactusdot.png'
+// import contactusdot from '../../assets/images/contactusdot.png'
 import Dot from './Dot'
 import Footer from '../Footer/Footer'
 
@@ -24,15 +24,15 @@ function ContactUs() {
         
         <button className='button'> Contact Us</button>
         <div className='socialmedia'>
-          <a href='https://www.youtube.com/' target='_blank'>
+          <a href='https://www.youtube.com/' target='_blank' rel="noreferrer">
             <img src={linkedin} alt='LinkedIn' className='iconimg' />
           </a>
 
-          <a href='https://www.youtube.com/' target='_blank'>
+          <a href='https://www.youtube.com/' target='_blank' rel="noreferrer">
             <img src={twitter} alt='twitter' className='iconimg' />
           </a>
 
-          <a href='https://www.youtube.com/' target='_blank'>
+          <a href='https://www.youtube.com/' target='_blank' rel="noreferrer">
             <img src={discord} alt='discord' className='iconimg' />
           </a>
         </div>
