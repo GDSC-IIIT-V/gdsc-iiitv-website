@@ -4,8 +4,7 @@
   font-family: avenir;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 49px;
+  font-size: 36px;
   margin: none;
 }
 
@@ -34,9 +33,7 @@
 
 .Team-content-container {
   display: flex;
-  // align-items: center;
   justify-content: space-evenly;
-
   height: 65vh;
 }
 
@@ -48,7 +45,6 @@
   max-height: 600px;
   font-family: avenir;
   font-size: 20px;
-  // flex-grow: 1;
 }
 
 .Team-image-lamp {
@@ -69,12 +65,8 @@
   width: 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  // animation: bulb 4s ease-in 1 normal forwards;
+
 }
-// @keyframes bulb {
-//   25% {background: white}
-//   75% {background: #fc8f01}
-// }
 
 .Team-lamp-inside {
   height: 300px;
@@ -119,10 +111,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  // margin-left: 45px;
   margin-bottom: 200px;
-  // flex-grow: 1;
-}
+  }
 
 .Team-table-image {
   height: 160px;
@@ -145,10 +135,10 @@
   max-height: 35px;
   width: 35px;
   opacity: 1;
-  animation: cmt-1 6s infinite forwards;
+  animation: cmt-1 6s ease-out 8s infinite forwards;
 }
 @keyframes cmt-1 {
-  75% {
+  0% {
     opacity: 0;
   }
   100% {
@@ -162,13 +152,13 @@
   height: 35px;
   width: 35px;
   opacity: 1;
-  animation: cmt-2 6s 6s infinite forwards;
+  animation: cmt-2 6s ease-out 6s infinite forwards;
 }
 @keyframes cmt-2 {
-  75% {
+  0% {
     opacity: 0;
   }
-  100% {
+  50% {
     opacity: 1;
   }
 }
@@ -179,15 +169,16 @@
   height: 35px;
   width: 35px;
   opacity: 1;
-  animation: cmt-3 6s 12s infinite forwards;
+  animation: cmt-3 6s ease-out 9s infinite forwards;
+  
 }
 
 @keyframes cmt-3 {
+  0% {
+    opacity: 0;
+  }
   75% {
     opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 .Team-cmt4 {
@@ -196,15 +187,15 @@
   margin-left: -50px;
   height: 35px;
   width: 35px;
-  opacity: 0;
-  animation: cmt-4 6s 18s infinite forwards;
+  opacity: 1;
+  animation: cmt-4 6s ease-out 6s infinite forwards;
 }
 
 @keyframes cmt-4 {
-  75% {
+  0% {
     opacity: 1;
   }
-  100% {
+  75% {
     opacity: 0;
   }
 }
@@ -230,13 +221,13 @@
   background-color: #f3f5f8;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
-  transform: rotate(135deg);
+  transform: rotate(-45deg);
   animation: rotate-inner-1 4s linear 1 forwards;
 }
 
 @keyframes rotate-inner-1 {
   from {
-    transform: rotate(360deg);
+    transform: rotate(-45deg);
   }
   to {
     transform: rotate(135deg);
@@ -254,14 +245,14 @@
   background-color: #f3f5f8;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
-  transform: rotate(135deg);
-  animation: rotate-inner-2 4s 5s linear 1 forwards;  //5s
+  transform: rotate(-45deg);
+  animation: rotate-inner-2 4s 5s linear 1 forwards; 
 
 }
 
 @keyframes rotate-inner-2 {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-45deg);
   }
   to {
     transform: rotate(135deg);
@@ -280,16 +271,16 @@
   background-color: #f3f5f8;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
-  transform: rotate(45deg);
-  animation: rotate-inner-3 4s 9s linear 1 forwards;
+  transform: rotate(225deg);
+  animation: rotate-inner-3 4s 10s linear 1 forwards;
 }
 
 @keyframes rotate-inner-3 {
   from {
-    transform: rotate(-90deg);
+    transform: rotate(-135deg);
   }
   to {
-    transform: rotate(45deg);
+    transform: rotate(-315deg);
   }
 }
 
@@ -305,16 +296,16 @@
   background-color: #f3f5f8;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
-  transform: rotate(135deg);
+  transform: rotate(45deg);
   animation: rotate-inner-4 4s 5s linear 1 forwards;   
 
 }
 @keyframes rotate-inner-4 {
   from {
-    transform: rotate(-135deg);
+    transform: rotate(-315deg);
   }
   to {
-    transform: rotate(135deg);
+    transform: rotate(-495deg);
   }
 }
 
@@ -327,15 +318,15 @@
   border-left: 7px solid #fb260a;
   border-bottom: 7px solid #fb260a;
   padding: 3px;
-  transform: rotate(225deg);
+  transform: rotate(45deg);
   animation: rotate-1 4s linear 1 forwards;
 }
 @keyframes rotate-1 {
   from {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
   }
   to {
-    transform: rotate(225deg);
+    transform: rotate(-135deg);
   }
 }
 .Team-circle-outer-2 {
@@ -347,16 +338,16 @@
   border-right: 7px solid #3c7afc;
   border-left: 7px solid #3c7afc;
   padding: 3px;
-  transform: rotate(225deg);
-  animation: rotate-2 4s 5s linear 1 forwards;  //5s
+  transform: rotate(45deg);
+  animation: rotate-2 4s 5s linear 1 forwards;  
   
 }
 @keyframes rotate-2 {
   from {
-    transform: rotate(360deg);
+    transform: rotate(45deg);
   }
   to {
-    transform: rotate(225deg);
+    transform: rotate(-135deg);
   }
 }
 
@@ -369,15 +360,15 @@
   border-right: 7px solid #00a453;
   border-left: 7px solid #00a453;
   padding: 3px;
-  transform: rotate(-45deg);
-  animation: rotate-3 4s 9s linear 1 forwards;  //9s
+  transform: rotate(135deg);
+  animation: rotate-3 4s 10s linear 1 forwards;  
 }
 @keyframes rotate-3 {
   from {
-    transform: rotate(90deg);
+    transform: rotate(135deg);
   }
   to {
-    transform: rotate(-45deg);
+    transform: rotate(315deg);
   }
 }
 
@@ -390,16 +381,16 @@
   border-left: 7px solid #ffbd00;
   border-bottom: 7px solid #ffbd00;
   padding: 3px;
-  transform: rotate(-135deg);
+  transform: rotate(-45deg);
   animation: rotate-4 4s 5s linear 1 forwards;  
 
 }
 @keyframes rotate-4 {
   from {
-    transform: rotate(135deg);
+    transform: rotate(-45deg);
   }
   to {
-    transform: rotate(-135deg);
+    transform: rotate(135deg);
   }
 }
 
@@ -411,6 +402,7 @@
     display: flex;
     align-self: center;
     justify-content: space-evenly;
+ 
   }
   .Team-circle-outer-1 {
    margin: 10px 10px;
@@ -438,6 +430,7 @@
 @media screen and (max-width: 1025px) {
   .Team-content-container {
     height: 80vh;
+    overflow-x: hidden;
   }
 }
 
