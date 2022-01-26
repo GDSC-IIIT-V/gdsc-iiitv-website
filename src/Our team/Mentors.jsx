@@ -3,9 +3,13 @@ import "./Hero.css";
 import github from "../assets/images/github.svg";
 import linkedin from "../assets/images/linkedin.svg";
 import { Mentors } from "./util/Mentors";
+import Navbar from "./Navbar";
+
 
 function Mentor() {
   return (
+    <>
+    <Navbar/>
     <div className="leads-container" id='team'>
       <div className="leads-title">Mentors</div>
       <div className="leads-content-wrapper">
@@ -43,6 +47,7 @@ function Mentor() {
         
       </div>
     </div>
+    </>
   )
 }
 

@@ -8,6 +8,8 @@ import { Volunteers } from "./util/Volunteers";
 
 function Volunteer() {
   return (
+    <>
+    <Navbar/>
     <div className="leads-container" id='team'>
       <div className="leads-title">Volunteers</div>
       <div className="leads-content-wrapper">
@@ -45,6 +47,7 @@ function Volunteer() {
         
       </div>
     </div>
+    </>
   )
 }
 

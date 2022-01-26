@@ -6,6 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:link{
+  text-decoration: none;
+}
+
 @font-face {
   font-family: avenir;
   src: url("./assets/fonts/avenir.otf");
