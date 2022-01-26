@@ -52,6 +52,21 @@ const Events = () => {
           topEvent={eventComponents[4]}
           bottomEvent={eventComponents[5]}
         />
+
+        {/* <div className="events__container__more-info">
+          <div className="events__container__more-info__message">
+            Fun Events, talks and a lot more for upcoming developers.{" "}
+          </div>
+          <div className="events__container__more-info__events-link">
+            <a
+              href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Find out more...
+            </a>
+          </div>
+        </div> */}
       </div>
     </div>
   );

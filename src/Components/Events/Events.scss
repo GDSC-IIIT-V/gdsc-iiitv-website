@@ -35,7 +35,7 @@
   &__container {
     width: 100vw;
     position: absolute;
-    top: 100px;
+    // top: 100px;
     padding-bottom: 4%;
     display: flex;
     justify-content: space-evenly;
@@ -56,7 +56,7 @@
 @media screen and (min-width: 1024px) {
   .events {
     &__container {
-      top: 80px;
+      top: 82px;
     }
   }
 }
