@@ -1,5 +1,5 @@
 .leads-container {
-  margin-top: 5%;
+  margin-top: 0%;
 }
 .leads-title {
   display: flex;
@@ -129,7 +129,7 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1080px){
+@media only screen and (min-width: 700px) and (max-width: 1020px){
   .leads-content-wrapper {
     padding-left: 1%;
     padding-right: 1%;

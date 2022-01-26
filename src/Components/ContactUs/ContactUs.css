@@ -2,64 +2,50 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-top: 10rem; */
-  top: 210rem;
-  position: absolute;
-  padding-top: 100%;
-  padding-left: 25%;
-  z-index: 999;
+  margin-top: 10rem;
 }
+
 .contactus-button {
-  position: relative;
-  top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2rem;
+
+  margin-top: 8rem;
+  z-index: 999;
+
+  flex-direction: column;
 }
 
-
-button.button {
+.button-contact {
   border: solid 3px transparent;
+  padding: 1rem 5rem 1rem 5rem;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
     linear-gradient(120deg, #4285f4, #0f9d58, #f4b400, #db4437);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #fff inset;
-  padding: 0.5rem 3rem;
   border-radius: 10px;
+  box-shadow: 2px 1000px 1px #fff inset;
   z-index: 999;
-  position: relative;
-  color: rgb(15, 15, 88);
+  font-size: 23px;
+  font-family: Avenir;
 }
-
-button.button:hover {
+button.button-contact:hover {
   box-shadow: none;
   color: white;
   z-index: 999;
 }
 
-/* .dot-background {
-  position: relative;
-  z-index: 0;
-  overflow-y: hidden;
-  margin-bottom: -100px;
-} */
-
 .socialmedia {
-  position: relative;
-  /* padding-top: 8rem; */
-  display: flex;
+  margin-top: 1rem;
   z-index: 999;
-  align-items: center;
-  justify-content: center;
 }
-
 .iconimg {
-  padding: 0.25rem;
-  cursor: pointer;
+  padding-left: 0.25rem;
 }
 
-.iconimg:hover image {
-  transform: scale(1);
-  transition: 0.3s ease-in-out;
+.dot {
+  z-index: -2;
+  margin-top: -12rem;
 }

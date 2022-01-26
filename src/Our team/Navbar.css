@@ -1,10 +1,10 @@
-.containerr {
+.containerr-team {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 5px;
     /*To fix navbar to the top of page uncomment the following code*/
     /* padding-bottom: 10px;
     position:fixed;
@@ -12,7 +12,7 @@
     width: 100%; */
   }
 
-  .logo{
+  .logo-team{
     display: flex;
     flex-direction: row;
     width: 45%;
@@ -20,23 +20,35 @@
     align-items: center;
   }
 
-  .part1 {
+  .homeimg{
+    width: 40px;
+    height: 40px;
+  }
+
+  .logoimg-team{
+    width: 40px;
+    height: 40px;
+  }
+
+  .part1-team {
     display: flex;
     flex-direction: row;
-    width: 33%;
-    justify-content: space-around;
+    width: 35%;
+    padding-left: 20px;
+    justify-content: flex-start;
     align-items: center;
   }
 
-  .part2 {
+  .part2-team {
     display: flex;
     flex-direction: row;
-    width: 33%;
-    justify-content: space-evenly;
+    width: 20%;
+    padding-right: 20px;
+    justify-content: flex-end;
     align-items: center;
   }
 
-  .logotext{
+  .logotext-team{
     display: flex;
     flex-direction: row;
     width: 65%;
@@ -44,14 +56,14 @@
     align-items: center;
   }
 
-  .linktext {
+  .linktext-team {
     width: 69px;
     height: 26px;
   
     font-family: avenir;
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 22px;
     line-height: 26px;
     /* identical to box height */
     color: #575757;
@@ -68,16 +80,16 @@
 
   @media only screen and (min-width:1123px){
 
-    .logoimg{
+    .logoimg-team{
       width: 40px;
       height: 40px;
     }
-    .comtainerr{
+    .comtainerr-team{
       width: 100%;
     }
 
-    .linktext{
-      font-size: 22px;
+    .linktext-team{
+      font-size: 24px;
     }
 
     
@@ -86,10 +98,10 @@
 
   @media only screen and (min-width:700px) and (max-width:940px){
 
-    .part1{
+    .part1-team{
       width: 45%;
     }
-    .part2{
+    .part2-team{
       width: 45%;
     }
     
@@ -97,39 +109,42 @@
 
   @media only screen and (min-width:600px) and (max-width:700px){
 
-    .comtainerr{
+    .comtainerr-team{
       width: 100%;
     }
 
-    .linktext{
+    .linktext-team{
       font-size: 16px;
     }
 
-    .part1{
+    .part1-team{
       width: 45%;
     }
-    .part2{
+    .part2-team{
       width: 40%;
     }
     
+    .logo-team{
+      width: 55%;
+    }
    
 
   }
 
   @media only screen and (min-width:450px) and (max-width:600px){
 
-    .comtainerr{
+    .comtainerr-team{
       width: 100%;
     }
 
-    .linktext{
+    .linktext-team{
       font-size: 14px;
     }
 
-    .part1{
+    .part1-team{
       width: 50%;
     }
-    .part2{
+    .part2-team{
       width: 40%;
     }
     
@@ -139,22 +154,22 @@
 
   @media only screen and (min-width:350px) and (max-width:450px){
 
-    .logoimg{
+    .logoimg-team{
       width: 20px;
       height: 20px;
     }
-    .comtainerr{
+    .comtainerr-team{
       width: 100%;
     }
 
-    .linktext{
+    .linktext-team{
       font-size: 11px;
     }
 
-    .part1{
+    .part1-team{
       width: 50%;
     }
-    .part2{
+    .part2-team{
       width: 40%;
     }
     
@@ -164,22 +179,22 @@
 
   @media only screen and (min-width:0px) and (max-width:350px){
 
-    .logoimg{
+    .logoimg-team{
       width: 20px;
       height: 20px;
     }
-    .comtainerr{
+    .comtainerr-team{
       width: 100%;
     }
 
-    .linktext{
+    .linktext-team{
       font-size: 10px;
     }
 
-    .part1{
+    .part1-team{
       width: 50%;
     }
-    .part2{
+    .part2-team{
       width: 40%;
     }
     

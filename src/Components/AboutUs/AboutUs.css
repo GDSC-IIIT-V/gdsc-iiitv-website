@@ -109,9 +109,9 @@ p{
 
 #yellExt{
     position: absolute;
-    margin-top: 2.23%;    
-    left: 95.7%;
-    width: 108.8px
+    margin-top: 2.2%;    
+    left: 93.7%;
+    width: 104.8px
 
 }
 
@@ -150,9 +150,9 @@ p{
 
 #yellowPipe{
     position: absolute;
-    width: 505px;
+    width: 158px;
     height: 98px;
-    left: 79.7%;
+    left: 86%;
     margin-top: -2%;    
     transform: rotateZ(360deg);
 }
@@ -262,7 +262,7 @@ p{
 #sphere4{
     position: absolute;
     z-index: 10;
-    left: 89%;
+    left: 86%;
     animation-name: yellowMove;
     animation-fill-mode: forwards;
     animation-delay: 13s;
@@ -282,7 +282,7 @@ p{
     }
     100%{
         transform: translateY(60%) translateX(600%);
-        opacity: 1;
+        opacity: 0;
         display: none;
     }
 }
@@ -291,24 +291,24 @@ p{
 
 #line33{
     position: absolute;
-    width: 408%;
-    height: 20%;
-    left: -155%;
-    margin-top: 1.5%;
+    width: 100%;
+    height: 19.5%;
+    left: -1%;
+    margin-top: 1.8%;
 }
 #line34{
     position: absolute;
-    width: 408%;
-    height: 20%;
-    left: -155%;
+    width: 100%;
+    height: 19.2%;
+    left: -1%;
     margin-top: 3%;
 
 }
 #line35{
     position: absolute;
-    width: 408%;
-    height: 20%;
-    left: -155%;
+    width: 100%;
+    height: 18.6%;
+    left: -1%;
     margin-top: 4.2%;
 }
 
@@ -317,6 +317,19 @@ p{
 
 /* Continue from tmrw - 1024px */
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
+    #line33{
+        margin-top: 5%;
+        height: 91px;
+    }
+    #line34{
+        height: 91px;
+        margin-top: 7%;
+    }
+    #line35{
+        height: 92px;
+        margin-top: 9%;
+       
+    }
     #redExt{
         display: none;
     }
@@ -371,7 +384,7 @@ p{
     #sphere4{
         height: 35px;
         width:35px;
-        left: 90.5%;
+        left: 90%;
     }
 
     #redWholePipe{
@@ -398,7 +411,7 @@ p{
     #yellowPipe{
         width: 120.6px;
         height: 60px;
-        left: 89.7%;
+        left: 89%;
         margin-top: -1.2%; 
     }
 
@@ -408,11 +421,11 @@ p{
             opacity: 0.3;
         }
         25%{
-            transform: translateY(70%);
+            transform: translateY(72%);
             opacity: 1;
         }
         75% {
-            transform: translateY(80%) translateX(780%);
+            transform: translateY(75%) translateX(780%);
             opacity: 1
         }
         100%{
@@ -430,7 +443,7 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(82%) translateX(600%);
+            transform: translateY(82%) translateX(100%);
             opacity: 0;
             /* display: none; */
         }
@@ -465,11 +478,11 @@ p{
             opacity: 1;
         }
         75%{
-            transform: translateY(-74%) translateX(770%);
+            transform: translateY(-74%) translateX(775%);
             opacity: 1;
         }
         100%{
-            transform: translateX(820%) rotateZ(90deg);
+            transform: translateX(815%) rotateZ(90deg);
             opacity: 0;
             /* display: none; */
         }
@@ -561,7 +574,7 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(66%) translateX(600%);
+            transform: translateY(66%) translateX(100%);
             opacity: 1;
             display: none;
         }
@@ -687,7 +700,7 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(75%) translateX(600%);
+            transform: translateY(75%) translateX(100%);
             opacity: 1;
             display: none;
         }
@@ -735,6 +748,9 @@ p{
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1600px){
+    #yellowPipe{
+        left: 89.2%;
+    }
     #redExt{
         display: none;
     }
@@ -761,7 +777,7 @@ p{
     }
     #sphere{
         left: -4.2%;
-        margin-top: 14.9%;
+        margin-top: 15%;
     }
     #greenWholePipe{
         margin-top: 16%;
@@ -774,8 +790,20 @@ p{
         margin-top: 17.4%;
     }
     #sphere4{
-        left: 92%;
+        left: 89%;
         margin-top: 0.4%;
+    }
+    #line33{
+        margin-top: 6%;
+        height: 130px;
+    }
+    #line34{
+        margin-top: 8%;
+        height: 128px;
+    }
+    #line35{
+        margin-top: 10%;
+        height: 124px;
     }
     @keyframes blueMove{
         0%{
@@ -805,8 +833,8 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(74%) translateX(600%);
-            opacity: 1;
+            transform: translateY(74%) translateX(200%);
+            opacity: 0;
             display: none;
         }
     }
@@ -840,7 +868,7 @@ p{
             opacity: 1;
         }
         75%{
-            transform: translateY(-80%) translateX(860%);
+            transform: translateY(-79%) translateX(860%);
             opacity: 1;
         }
         100%{
@@ -894,7 +922,7 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(63%) translateX(600%);
+            transform: translateY(63%) translateX(100%);
             opacity: 1;
             display: none;
         }
@@ -955,7 +983,7 @@ p{
             opacity: 1;
         }
         100%{
-            transform: translateY(68%) translateX(600%);
+            transform: translateY(68%) translateX(100%);
             opacity: 1;
             display: none;
         }
@@ -1098,17 +1126,13 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
-        margin-top: 175.2%;
-        width: 65px;
-        height: 60.94px;
+        display: none;
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 110px;
         height: 60.94px;
-        left: 250px;
+        left: 280px;
         margin-top: 169%;
     }
 }
@@ -1211,17 +1235,17 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
+        display: none;
+        /* left: 350px;
         margin-top: 182.5%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 115px;
         height: 60.94px;
-        left: 250px;
+        left: 260px;
         margin-top: 176%;
     }
 }
@@ -1324,17 +1348,13 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
-        margin-top: 191.6%;
-        width: 65px;
-        height: 60.94px;
+        display: none;
     }
     #yellowPipe{
         position: absolute;
         width: 155px;
         height: 60.94px;
-        left: 250px;
+        left: 240px;
         margin-top: 185%;
     }
 }
@@ -1437,34 +1457,33 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
+        display: none;
+        /* left: 350px;
         margin-top: 200.8%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 115px;
         height: 60.94px;
-        left: 250px;
+        left: 245px;
         margin-top: 194%;
     }
 }
-
-@media only screen and (min-width: 768px) and (max-width: 1000px){
+@media only screen and (width: 912px){
     #line33{
-        display: none;
+        display: none; 
     }
     #line34{
         display: none; 
     }
     #line35{
-        display: none;
+        display: none; 
     }
     .mainCont{
         justify-content: space-evenly;
-        width: 122%;
+        /* width: 122%; */
     }
     #redExt{
         display: none;
@@ -1473,27 +1492,33 @@ p{
         display: none;
     }
     .box1{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
 
     .box2{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
 
     .box3{
-        width: 200px;
-        height: 10%;
+        width: 150px;
+        height: 200px;
         animation: none;
     }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
     #redWholePipe{
-        width: 400px;
-        height: 80px;
-        margin-top: 29.5%;
-        left: -18%;
+        width: 350px;
+        height: 60px;
+        margin-top: 28.5%;
+        left: -14%;
     }
     #sphere{
         left: -4.2%;
@@ -1502,8 +1527,8 @@ p{
         display: none;
     }
     #greenWholePipe{
-        margin-top: 21.5%;
-        width: 424px;
+        margin-top: 21.3%;
+        width: 324px;
         height: 200.94px;
         left: 50%;
     }
@@ -1524,13 +1549,104 @@ p{
         display: none;
     }
     #blueWholePipe{
-        width: 424px;
+        width: 324px;
         height: 200.94px;
         left: 16%;
-        margin-top: -9%;
+        margin-top: -10%;
     }
     #yellowPipe{
-        left: 85%;
+        height: 60px;
+        left: 82%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 911px){
+    #line33{
+        display: none; 
+    }
+    #line34{
+        display: none; 
+    }
+    #line35{
+        display: none; 
+    }
+    .mainCont{
+        justify-content: space-around;
+        /* width: 122%; */
+    }
+    #redExt{
+        display: none;
+    }
+    #yellExt{
+        display: none;
+    }
+    .box1{
+        width: 150px;
+        height: 200px;
+        animation: none;
+    }
+
+    .box2{
+        width: 150px;
+        height: 200px;
+        animation: none;
+    }
+
+    .box3{
+        width: 150px;
+        height: 200px;
+        animation: none;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    #redWholePipe{
+        width: 350px;
+        height: 60px;
+        margin-top: 32.5%;
+        left: -18%;
+    }
+    #sphere{
+        left: -4.2%;
+        margin-top: 14.9%;
+        animation: none;
+        display: none;
+    }
+    #greenWholePipe{
+        margin-top: 24.5%;
+        width: 324px;
+        height: 200.94px;
+        left: 50%;
+    }
+    #sphere2{
+        left: 24%;
+        animation: none;
+        display: none;
+    }
+    #sphere3{
+        margin-top: 17.4%;
+        animation: none;
+        display: none;
+    }
+    #sphere4{
+        left: 92%;
+        margin-top: 0.4%;
+        animation: none;
+        display: none;
+    }
+    #blueWholePipe{
+        width: 324px;
+        height: 200.94px;
+        left: 16%;
+        margin-top: -11%;
+    }
+    #yellowPipe{
+        width: 110px;
+        height: 60px;
+        left: 89.6%;
     }
 }
 
@@ -1562,7 +1678,7 @@ p{
         justify-content: space-between;
         margin-top: 40%;
         margin-bottom: 40%;
-        margin-left: 32%;
+        /* margin-left: 32%; */
     }
     .topCont{
         background-color: red;
@@ -1604,21 +1720,21 @@ p{
         position: absolute;
         width: 155px;
         height: 60.94px;
-        left: 15%;
+        left: 3%;
         margin-top: -10%;
     }
     #redExt{
         /* display: none; */
         width: 70px;
         height: 60.94px;
-        left: 9%;
+        left: -1%;
         margin-top: -14.7%;
     }
     #blueWholePipe{
         transform: rotateZ(270deg);
         width: 387px;
         height: 50.94px;
-        left: 371px; 
+        left: 49%; 
         margin-top: 50%;
     }
     #greenWholePipe{
@@ -1626,8 +1742,8 @@ p{
         position: absolute;
         width: 387px;
         height: 48.94px;
-        left: -8%;
-        margin-top: 100%;
+        left: -21%;
+        margin-top: 95%;
     }
     #line33{
         display: none;
@@ -1642,17 +1758,17 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 565px;
+        display: none;
+        /* left: 88%;
         margin-top: 139.7%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 105px;
         height: 60.94px;
-        left: 450px;
+        left: 70%;
         margin-top: 135%;
     }
 }
@@ -1741,9 +1857,10 @@ p{
         margin-top: 320%;
     }
     #yellowPipe{
-        width: 130px;
+        width: 110px;
         height: 50px;
         margin-top: -30%;
+        left: 70%;
     }
     #yellExt{
         display: none;

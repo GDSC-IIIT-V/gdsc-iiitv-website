@@ -1,8 +1,13 @@
 body {
+  max-width: 100%;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a:link{
+  text-decoration: none;
 }
 
 @font-face {

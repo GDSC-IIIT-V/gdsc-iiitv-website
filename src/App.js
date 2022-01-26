@@ -32,7 +32,6 @@ function App() {
             </>
           }
         ></Route>
-
         <Route path="/Alumini" element={<Alumini />}></Route>
         <Route path="/Coreteam" element={<Coreteam />}></Route>
         <Route path="/Mentors" element={<Mentors />}></Route>
