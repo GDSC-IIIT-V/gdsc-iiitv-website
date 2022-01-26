@@ -1126,17 +1126,13 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
-        margin-top: 175.2%;
-        width: 65px;
-        height: 60.94px;
+        display: none;
     }
     #yellowPipe{
         position: absolute;
         width: 110px;
         height: 60.94px;
-        left: 250px;
+        left: 280px;
         margin-top: 169%;
     }
 }
@@ -1239,17 +1235,17 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
+        display: none;
+        /* left: 350px;
         margin-top: 182.5%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 115px;
         height: 60.94px;
-        left: 250px;
+        left: 260px;
         margin-top: 176%;
     }
 }
@@ -1461,17 +1457,17 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 350px;
+        display: none;
+        /* left: 350px;
         margin-top: 200.8%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 115px;
         height: 60.94px;
-        left: 250px;
+        left: 245px;
         margin-top: 194%;
     }
 }
@@ -1560,7 +1556,7 @@ p{
     }
     #yellowPipe{
         height: 60px;
-        left: 66%;
+        left: 82%;
     }
 }
 
@@ -1575,7 +1571,7 @@ p{
         display: none; 
     }
     .mainCont{
-        justify-content: space-evenly;
+        justify-content: space-around;
         /* width: 122%; */
     }
     #redExt{
@@ -1648,8 +1644,9 @@ p{
         margin-top: -11%;
     }
     #yellowPipe{
+        width: 110px;
         height: 60px;
-        left: 81%;
+        left: 89.6%;
     }
 }
 
@@ -1761,15 +1758,15 @@ p{
     }
 
     #yellExt{
-        /* display: none; */
-        left: 88%;
+        display: none;
+        /* left: 88%;
         margin-top: 139.7%;
         width: 65px;
-        height: 60.94px;
+        height: 60.94px; */
     }
     #yellowPipe{
         position: absolute;
-        width: 155px;
+        width: 105px;
         height: 60.94px;
         left: 70%;
         margin-top: 135%;
@@ -1860,9 +1857,10 @@ p{
         margin-top: 320%;
     }
     #yellowPipe{
-        width: 130px;
+        width: 110px;
         height: 50px;
         margin-top: -30%;
+        left: 70%;
     }
     #yellExt{
         display: none;
