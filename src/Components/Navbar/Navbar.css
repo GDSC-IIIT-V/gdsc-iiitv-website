@@ -15,7 +15,7 @@
   .logo{
     display: flex;
     flex-direction: row;
-    width: 35%;
+    width: 45%;
     justify-content: space-around;
     align-items: center;
   }
@@ -65,3 +65,126 @@
   .txtbold{
       font-weight:600;
   }
+
+  @media only screen and (min-width:1123px){
+
+    .logoimg{
+      width: 40px;
+      height: 40px;
+    }
+    .comtainerr{
+      width: 100%;
+    }
+
+    .linktext{
+      font-size: 22px;
+    }
+
+    
+    
+  }
+
+  @media only screen and (min-width:700px) and (max-width:940px){
+
+    .part1{
+      width: 45%;
+    }
+    .part2{
+      width: 45%;
+    }
+    
+  }
+
+  @media only screen and (min-width:600px) and (max-width:700px){
+
+    .comtainerr{
+      width: 100%;
+    }
+
+    .linktext{
+      font-size: 16px;
+    }
+
+    .part1{
+      width: 45%;
+    }
+    .part2{
+      width: 40%;
+    }
+    
+   
+
+  }
+
+  @media only screen and (min-width:450px) and (max-width:600px){
+
+    .comtainerr{
+      width: 100%;
+    }
+
+    .linktext{
+      font-size: 14px;
+    }
+
+    .part1{
+      width: 50%;
+    }
+    .part2{
+      width: 40%;
+    }
+    
+   
+
+  }
+
+  @media only screen and (min-width:350px) and (max-width:450px){
+
+    .logoimg{
+      width: 20px;
+      height: 20px;
+    }
+    .comtainerr{
+      width: 100%;
+    }
+
+    .linktext{
+      font-size: 11px;
+    }
+
+    .part1{
+      width: 50%;
+    }
+    .part2{
+      width: 40%;
+    }
+    
+   
+
+  }
+
+  @media only screen and (min-width:0px) and (max-width:350px){
+
+    .logoimg{
+      width: 20px;
+      height: 20px;
+    }
+    .comtainerr{
+      width: 100%;
+    }
+
+    .linktext{
+      font-size: 10px;
+    }
+
+    .part1{
+      width: 50%;
+    }
+    .part2{
+      width: 40%;
+    }
+    
+   
+
+  }
+    
+  

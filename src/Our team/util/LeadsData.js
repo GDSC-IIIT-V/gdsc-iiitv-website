@@ -1,11 +1,11 @@
-import gdsc_lead from "../../../assets/images/leads/gdsc_lead.svg"
-import pr_lead from "../../../assets/images/leads/pr_lead.svg"
-import flutter_lead from "../../../assets/images/leads/flutter_lead.svg"
-import webdev_lead from "../../../assets/images/leads/webdev_lead.svg"
-import android_lead from "../../../assets/images/leads/android_lead.svg"
-import arvr_lead from "../../../assets/images/leads/arvr_lead.svg"
-import design_lead from "../../../assets/images/leads/design_lead.svg"
-import mlai_lead from "../../../assets/images/leads/mlai_lead.svg"
+import gdsc_lead from "../../assets/images/leads/gdsc_lead.svg"
+import pr_lead from "../../assets/images/leads/pr_lead.svg"
+import flutter_lead from "../../assets/images/leads/flutter_lead.svg"
+import webdev_lead from "../../assets/images/leads/webdev_lead.svg"
+import android_lead from "../../assets/images/leads/android_lead.svg"
+import arvr_lead from "../../assets/images/leads/arvr_lead.svg"
+import design_lead from "../../assets/images/leads/design_lead.svg"
+import mlai_lead from "../../assets/images/leads/mlai_lead.svg"
 
 
 export const Leads = [

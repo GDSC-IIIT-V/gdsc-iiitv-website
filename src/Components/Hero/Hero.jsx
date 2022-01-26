@@ -37,17 +37,17 @@ const Hero = () => {
         </div>
 
         <div className="hero-column clm2">
-          <div class="loader-wrapper">
-            <div class="loader t1">
+          <div className="loader-wrapper">
+            <div className="loader t1">
               <img src={poly1} className="triimg" alt="tri1"></img>
             </div>
-            <div class="loader t2">
+            <div className="loader t2">
               <img src={poly2}className="triimg" alt="tri2"></img>
             </div>
-            <div class="loader t3">
+            <div className="loader t3">
               <img src={poly3} className="triimg" alt="tri3"></img>
             </div>
-            <div class="loader t4">
+            <div className="loader t4">
               <img src={poly4} className="triimg" alt="tri4"></img>
             </div>
           </div>
