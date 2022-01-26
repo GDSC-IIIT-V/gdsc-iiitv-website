@@ -8,9 +8,9 @@ import design_lead from "../../assets/images/leads/design_lead.svg"
 import mlai_lead from "../../assets/images/leads/mlai_lead.svg"
 
 
-export const Leads = [
+export const Mentors = [
   {
-    name: "Anubhav Madhav",
+    name: " men Anubhav Madhav",
     position: "GDSC Lead",
     imgurl: gdsc_lead,
     githublink: "https://github.com/AnubhavMadhav",

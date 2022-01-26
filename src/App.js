@@ -8,10 +8,10 @@ import Video from './Components/Video/Video'
 import ContactUs from './Components/ContactUs/ContactUs'
 import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 // import { render } from "react-dom";
-import Alumini from './Our team/Alumini'
-import Coreteam from './Our team/Coreteam'
-import Mentors from './Our team/Mentors'
-import Volunteers from './Our team/Volunteers'
+import Alumina from './Our team/Alumini'
+import Coreteama from './Our team/Coreteam'
+import Mentor from './Our team/Mentors'
+import Volunteer from './Our team/Volunteers'
 
 function App() {
   return (
@@ -25,10 +25,10 @@ function App() {
       <ContactUs />
     </>}></Route>
     
-    <Route path="/Alumini" element={<Alumini/>}></Route>
-    <Route path="/Coreteam" element={<Coreteam/>}></Route>
-    <Route path="/Mentors" element={<Mentors/>}></Route>
-    <Route path="/Volunteers" element={<Volunteers/>}></Route>
+    <Route path="/Alumini" element={<Alumina/>}></Route>
+    <Route path="/Coreteam" element={<Coreteama/>}></Route>
+    <Route path="/Mentors" element={<Mentor/>}></Route>
+    <Route path="/Volunteers" element={<Volunteer/>}></Route>
        
     </Routes></Router>
    
