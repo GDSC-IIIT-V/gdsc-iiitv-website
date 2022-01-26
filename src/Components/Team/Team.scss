@@ -434,7 +434,13 @@
 @media screen and (max-width: 1025px) {
   .Team-content-container {
     height: 80vh;
-    overflow-x: hidden;
+    
+  }
+  // .Team-circle-container{
+  //   width: 800px;
+  // }
+  .Team-content{
+    width: 550px;
   }
 }
 
@@ -442,10 +448,29 @@
   .Team-content-container {
     height: 40vh;
   }
+  .Team-circle-container{
+    width: 400px;
+  }
+  .Team-content{
+    width: 350px;
+  }
+ 
+}
+
+@media screen and (max-width: 800px){
+  .Team-content-container {
+    height: 50vh;
+  }
 }
 @media screen and (max-width: 550px) {
   .Team-content-container {
-    height: 60vh;
+    height: 85vh;
+  }
+  .Team-circle-container{
+    width: 350px;
+  }
+  .Team-content{
+    width: 300px;
   }
 }
 
@@ -453,15 +478,30 @@
   .Team-content-container {
     height: 60vh;
   }
+  .Team-circle-container{
+    width: 350px;
+  }
+  .Team-content{
+    width: 350px;
+  }
 }
 
 @media screen and (max-width: 376px) {
   .Team-content-container {
     height: 80vh;
   }
+  .Team-circle-container{
+    width: 350px;
+  }
+  .Team-content{
+    width: 350px;
+  }
 }
 @media screen and (max-width: 300px) {
   .Team-content-container {
     height: 100vh;
+  }
+  .Team-content{
+    width: 275px;
   }
 }
