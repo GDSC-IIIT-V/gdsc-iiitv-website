@@ -230,9 +230,12 @@ color: #525252;
     }
   }
 
-  @media only screen and (min-width: 650px) and (max-width: 1000px){
+  @media only screen and (min-width: 650px) and (max-width: 1020px){
     .clm2{
       position: absolute;
+      display: none;
+    }
+    .line-img{
       display: none;
     }
     .hero-container {
@@ -306,6 +309,10 @@ color: #525252;
   
   @media only screen and (min-width: 540px) and (max-width: 650px){
   
+    
+    .line-img{
+      display: none;
+    }
     .clm2{
       position: absolute;
       display: none;
@@ -385,6 +392,10 @@ color: #525252;
       position: absolute;
       display: none;
     }
+    
+    .line-img{
+      display: none;
+    }
     .hero-container {
       width: 100%;
       display: flex;
@@ -454,10 +465,14 @@ color: #525252;
     }
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 400px){
+  @media only screen and (min-width: 0px) and (max-width: 400px){
   
     .clm2{
       position: absolute;
+      display: none;
+    }
+    
+    .line-img{
       display: none;
     }
     .hero-container {

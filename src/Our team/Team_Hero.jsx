@@ -1,15 +1,14 @@
 import React from "react";
-import "./Team.css";
-import github from "../../assets/images/github.svg";
-import linkedin from "../../assets/images/linkedin.svg";
-
+import "./Team-Hero.css";
+import github from "../assets/images/github.svg";
+import linkedin from "../assets/images/linkedin.svg";
 
 import { Leads } from "./util/LeadsData";
 
-const Team = () => {
+const Team = (props) => {
   return (
     <div className="leads-container" id='team'>
-      <div className="leads-title">Our Team</div>
+      <div className="leads-title">{props.title}</div>
       <div className="leads-content-wrapper">
         {Leads.map((lead, index) => (
           <div className="leads-content-container" key={index}>
