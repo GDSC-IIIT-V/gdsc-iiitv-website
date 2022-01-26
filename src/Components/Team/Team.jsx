@@ -20,7 +20,7 @@ const Team = () => {
       <hr className="Team-hr1" />
       <hr className="Team-hr2" />
       <hr className="Team-hr3" />
-
+      <div className="Team">
       <div className="Team-content-container">
         <div className="Team-content">
           gdsc started in 2019 by weuwbvw wwgwgg and gererbefbe which them grew
@@ -90,6 +90,7 @@ const Team = () => {
           <div className="Team-circle-inner-4">Volunteers</div>
           </Link>
         </div>
+      </div>
       </div>
     </div>
      
