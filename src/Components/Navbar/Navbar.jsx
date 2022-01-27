@@ -1,10 +1,12 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/images/Logo.svg";
-
+import BurgerMenu from './BurgerMenu/Navbar';
 
 const Navbar = () => {
   return (
+    <>
+    <BurgerMenu/>
     <div className="containerr">
       <div className="part1">
         <div className="logo">
@@ -43,8 +45,8 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a href="#videos" className="linktext">
-            Videos
+          <a href="#video" className="linktext">
+            Video
           </a>
         </div>
         <div>
@@ -54,6 +56,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Navbar;
