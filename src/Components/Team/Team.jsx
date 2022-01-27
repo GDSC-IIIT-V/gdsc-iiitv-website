@@ -63,12 +63,16 @@ const Team = () => {
         </div>
       </div>
       <div className="Team-circle-container">
+        <div className="Team-circle-1 c">
         <div className="Team-circle-outer-1">
         <Link to="/Coreteam">
             {" "}
           <div className="Team-circle-inner-1 linktxt">Core Team</div>
           </Link>
         </div>
+        </div>
+
+        <div className="Team-circle-2 c">
         <div className="Team-circle-outer-2">
           <Link to="/Alumini">
             {" "}
@@ -76,20 +80,26 @@ const Team = () => {
           </Link>
           
         </div>
-        
+        </div>
+
+        <div className="Team-circle-3 c">
         <div className="Team-circle-outer-3">
         <Link to="/Mentors">
             {" "}
           <div className="Team-circle-inner-3 linktxt">Mentors</div>
           </Link>
         </div>
-        
+        </div>
+
+        <div className="Team-circle-4 c">
         <div className="Team-circle-outer-4">
         <Link to="/Volunteers">
             {" "}
           <div className="Team-circle-inner-4 linktxt" >Volunteers</div>
           </Link>
         </div>
+        </div>
+
       </div>
       </div>
     </div>
