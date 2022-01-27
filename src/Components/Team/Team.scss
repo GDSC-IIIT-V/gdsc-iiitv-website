@@ -476,25 +476,28 @@
 
 @media screen and (max-width: 415px) {
   .Team-content-container {
-    height: 60vh;
+    height: 70vh;
   }
   .Team-circle-container{
     width: 350px;
   }
   .Team-content{
-    width: 350px;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 376px) {
   .Team-content-container {
-    height: 80vh;
+    height:100vh;
   }
   .Team-circle-container{
     width: 350px;
   }
   .Team-content{
-    width: 350px;
+    width: 250px;
+  }
+  .Team-hr3{
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 300px) {
