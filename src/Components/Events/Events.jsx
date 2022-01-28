@@ -18,7 +18,7 @@ const Events = () => {
     />
   ));
   return (
-    <div className="events">
+    <div className="events" id="events">
       <div className="events__title">Our Events</div>
       <div className="events__curvelines">
         <img src={Line33} alt="line-33" className="events__curvelines__line1" />
