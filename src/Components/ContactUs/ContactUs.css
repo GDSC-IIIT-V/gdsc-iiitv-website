@@ -17,7 +17,7 @@
   margin-bottom: 10%;
   opacity: 0;
   animation-name: sliding-iiitv;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
 }
@@ -25,11 +25,19 @@
 @keyframes sliding-iiitv {
     0%{
       opacity: 1;
-      transform: translateX(0%);
+      transform: translateX(1%);
+    }
+    25%{
+      opacity: 1;
+      transform: translateX(-0.4%);
     }
     50%{
       opacity: 1;
-      transform: translateX(-1%);
+      transform: translateX(-0.6%);
+    }
+    75%{
+      opacity: 1;
+      transform: translateX(-0.8%);
     }
     100%{
       transform: translateX(-1%);
@@ -116,17 +124,7 @@ button.button-contact:hover {
 
 @media only screen and (min-width: 1000px) and (max-width: 1199px){
   #iiitv-image-img{
-    margin-bottom: 16.9%;
-  }
-  .gdsc-image{
-    margin-left: 10rem;
-  }
-}
-
-
-@media only screen and (min-width: 850px) and (max-width: 999px){
-  #iiitv-image-img{
-    margin-bottom: 20%;
+    margin-bottom: 18%;
   }
   .gdsc-image{
     margin-left: 10rem;
@@ -152,4 +150,176 @@ button.button-contact:hover {
 .footer-links {
   color: #000000;
   text-decoration: none;
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 999px){
+  #iiitv-image-img{
+    margin-bottom: 20%;
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
+}
+
+
+@media only screen and (max-width: 944px){
+  #iiitv-image-img{
+    height: 100px;
+    width: 200px;
+    margin-bottom: 15.8%;
+  }
+  #gdsc-image-img{
+    height: 490px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 742px) and (min-width: 600px){
+  #iiitv-image-img{
+    height: 100px;
+    width: 200px;
+    margin-bottom: 17.8%;
+  }
+  #gdsc-image-img{
+    height: 490px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 520px){
+  #iiitv-image-img{
+    height: 80px;
+    width: 180px;
+    margin-bottom: 15.8%;
+  }
+  #gdsc-image-img{
+    height: 490px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 519px) and (min-width: 400px){
+  #iiitv-image-img{
+    height: 60px;
+    width: 160px;
+    margin-bottom: 21.8%;
+  }
+  #gdsc-image-img{
+    height: 490px;
+    width: 240px;
+  }
+  .gdsc-image{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @keyframes sliding-iiitv {
+    0%{
+      opacity: 1;
+      transform: translateY(1%);
+    }
+    25%{
+      opacity: 1;
+      transform: translateY(-0.4%);
+    }
+    50%{
+      opacity: 1;
+      transform: translatey(-0.6%);
+    }
+    75%{
+      opacity: 1;
+      transform: translateY(-0.8%);
+    }
+    100%{
+      transform: translateY(-1%);
+      opacity: 1;
+    }
+}
+}
+
+@media only screen and (max-width: 399px) and (min-width: 281px){
+    #iiitv-image-img{
+      height: 50px;
+      width: 150px;
+      margin-bottom: 22.8%;
+    }
+    #gdsc-image-img{
+      height: 490px;
+      width: 220px;
+    }
+    .gdsc-image{
+      margin-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @keyframes sliding-iiitv {
+      0%{
+        opacity: 1;
+        transform: translateY(1%);
+      }
+      25%{
+        opacity: 1;
+        transform: translateY(-0.4%);
+      }
+      50%{
+        opacity: 1;
+        transform: translatey(-0.6%);
+      }
+      75%{
+        opacity: 1;
+        transform: translateY(-0.8%);
+      }
+      100%{
+        transform: translateY(-1%);
+        opacity: 1;
+      }
+  }
+}
+
+@media only screen and (max-width: 280px){
+  #iiitv-image-img{
+    height: 50px;
+    width: 150px;
+    /* margin-bottom: 26.8%; */
+  }
+  #gdsc-image-img{
+    height: 490px;
+    width: 220px;
+    /* margin-top: 2.5rem; */
+  }
+  .gdsc-image{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+@keyframes sliding-iiitv {
+    0%{
+      opacity: 1;
+      transform: translateY(1%);
+    }
+    25%{
+      opacity: 1;
+      transform: translateY(-0.4%);
+    }
+    50%{
+      opacity: 1;
+      transform: translatey(-0.6%);
+    }
+    75%{
+      opacity: 1;
+      transform: translateY(-0.8%);
+    }
+    100%{
+      transform: translateY(-1%);
+      opacity: 1;
+    }
+}
 }
