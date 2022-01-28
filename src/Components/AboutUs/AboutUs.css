@@ -2556,7 +2556,193 @@ p {
   }
 }
 
+@media only screen and (min-width: 321px) and (max-width: 349px){
+  .mainCont {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 1000px;
+    margin-top: -20%;
+    margin-left: 10%;
+  }
+  .box1 {
+    width: 180px;
+    height: 170px;
+    margin-bottom: -10%;
+    animation: none;
+  }
+
+  .box2 {
+    width: 180px;
+    height: 170px;
+    margin-bottom: -10%;
+    animation: none;
+  }
+  #sphere {
+    display: none;
+    animation: none;
+  }
+  #sphere2 {
+    display: none;
+    animation: none;
+  }
+  #sphere3 {
+    display: none;
+    animation: none;
+  }
+  #sphere4 {
+    display: none;
+    animation: none;
+  }
+  .box3 {
+    width: 180px;
+    height: 170px;
+    animation: none;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  #redWholePipe {
+    /* width: 130px;
+    height: 50px;
+    margin-top: 88%;
+    left: -10%; */
+    display: none;
+  }
+
+  #blueWholePipe {
+    /* width: 230px;
+    height: 60px;
+    transform: rotateZ(270deg);
+    left: 54%;
+    margin-top: -210%; */
+    display: none;
+  }
+
+  #greenWholePipe {
+    /* width: 230px;
+    height: 60px;
+    transform: rotateZ(270deg);
+    left: -28%;
+    margin-top: 270%; */
+    display: none;
+  }
+  #yellowPipe {
+    /* width: 75px;
+    height: 50px;
+    margin-top: -30%;
+    left: 70%; */
+    display: none;
+  }
+  #yellExt {
+    display: none;
+  }
+  #redExt {
+    display: none;
+  }
+  #sphere {
+    display: none;
+  }
+  #sphere2 {
+    display: none;
+  }
+  #sphere3 {
+    display: none;
+  }
+  #sphere4 {
+    display: none;
+  }
+  #line33 {
+    display: none;
+  }
+  #line34 {
+    display: none;
+  }
+  #line35 {
+    display: none;
+  }
+}
+
+
 @media only screen and (max-width: 279px){
+  #redWholePipe{
+    display: none;
+  }
+  #blueWholePipe{
+    display: none;
+  }
+  #greenWholePipe{
+    display: none;
+  }
+  #yellowPipe{
+    display: none;
+  }
+  #yellExt{
+    display: none;
+  }
+  #redExt{
+    display: none;
+  }
+  #sphere{
+    display: none;
+  }
+  #sphere2{
+    display: none;
+  }
+  #sphere3{
+    display: none;
+  }
+  #sphere4{
+    display: none;
+  }
+  .box1 {
+    width: 180px;
+    height: 170px;
+    margin-bottom: -10%;
+    animation: none;
+  }
+
+  .box2 {
+    width: 180px;
+    height: 170px;
+    margin-bottom: -10%;
+    animation: none;
+  }
+  .box3 {
+    width: 180px;
+    height: 170px;
+    animation: none;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #line33 {
+    display: none;
+  }
+  #line34 {
+    display: none;
+  }
+  #line35 {
+    display: none;
+  }
+  .mainCont {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 1000px;
+    margin-top: -20%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 319px) and (min-width: 281px){
   #redWholePipe{
     display: none;
   }
