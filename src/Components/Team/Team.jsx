@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
-    <div>
+    <div id="team">
       <h5 className="Team-header">Our Team</h5>
 
       <hr className="Team-hr1" />

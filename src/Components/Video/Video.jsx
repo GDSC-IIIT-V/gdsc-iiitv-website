@@ -9,7 +9,7 @@ import scircle from '../../assets/images/small-circle.svg'
 function Video() {
   return (
     <>
-    <div className='video'>
+    <div className='video' id='video'>
       <img src={video_wave} alt='wave' className='wave' />
 
       <div className='video-wrapper'>
@@ -23,7 +23,7 @@ function Video() {
             className='video-size'
           />
             <img src={scircle} alt='scircle' className='scircle' />
-            
+
             <img src={bcircle} alt='wave' className='bcircle' />
         {/* </div> */}
         <YTbutton />

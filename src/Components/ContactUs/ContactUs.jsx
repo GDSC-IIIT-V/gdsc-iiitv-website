@@ -12,7 +12,7 @@ function ContactUs() {
   return (
     <>    
     <div classname='contact-us' id="contact-us">
-      <div className='gdsc-image'>
+      <div className='gdsc-image' id='contactUs'>
         <img src={gdsc} alt='gdsc' id = "gdsc-image-img"/>
         <img src={iiitv} alt='iiitv' id = "iiitv-image-img"/>
       </div>
