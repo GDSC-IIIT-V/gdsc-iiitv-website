@@ -1,10 +1,35 @@
 .gdsc-image {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+  /* align-items: center; */
+  margin-top: 12rem;
+  /* padding-left: 20rem; */
+}
+#iiitv-image-img{
+  /* position: absolute; */
+  /* left: 85%; */
+  margin-bottom: 13%;
+  opacity: 0;
+  animation-name: sliding-iiitv;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
 }
 
+@keyframes sliding-iiitv {
+    0%{
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    50%{
+      opacity: 1;
+      transform: translateX(-1%);
+    }
+    100%{
+      transform: translateX(-1%);
+      opacity: 1;
+    }
+}
 .contactus-button {
   display: flex;
   align-items: center;
@@ -48,4 +73,19 @@ button.button-contact:hover {
 .dot {
   z-index: -2;
   margin-top: -12rem;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1440px){
+  /* .gdsc-image{
+    height: 0rem;
+    width: 50rem;
+  } */
+  /* #gdsc-image-img{
+    height: 10rem;
+    width: 40rem;
+  } */
+  /* #iiitv-image-img{
+    margin-bottom: 13%;
+  } */
 }
