@@ -9,10 +9,10 @@ import scircle from '../../assets/images/small-circle.svg'
 function Video() {
   return (
     <>
-    <div className='video' id='video'>
+    <div className='video'>
       <img src={video_wave} alt='wave' className='wave' />
 
-      <div className='video-wrapper'>
+      <div className='video-wrapper' id='video'>
         {/* <div className='rainbow'> */}
         
           <iframe
