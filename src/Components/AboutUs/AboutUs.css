@@ -4,7 +4,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 .box1 {
   height: 290px;
@@ -474,6 +474,68 @@ p {
       opacity: 0;
       /* display: none; */
     }
+  }
+}
+@media only screen and (max-width: 1239px) and (min-width: 1101px) {
+  #redExt {
+    display: none;
+  }
+  #yellExt {
+    display: none;
+  }
+  h4{
+    font-size: 20px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .box1 {
+    width: 260px;
+    height: 220px;
+    animation: none;
+  }
+
+  .box2 {
+    width: 260px;
+    height: 220px;
+    animation: none;
+  }
+
+  .box3 {
+    width: 260px;
+    height: 220px;
+    animation: none;
+  }
+  #sphere{
+    display: none;
+  }
+  #sphere2{
+    display: none;
+  }
+  #sphere3{
+    display: none;
+  }
+  #sphere4{
+    display: none;
+  }
+
+  #blueWholePipe{
+    left: 18%;
+    width: 300px;
+  }
+  #redWholePipe{
+    left: -20%;
+    height: 70px;
+    margin-top: 22%;
+  }
+  #greenWholePipe{
+    left: 55%;
+    width: 300px;
+    margin-top: 21%;
+  }
+  #yellowPipe{
+    height: 70px;
+    left: 87%;
   }
 }
 @media only screen and (min-width: 1240px) and (max-width: 1359px) {
@@ -1967,7 +2029,7 @@ p {
   }
 }
 
-@media only screen and (width: 320px) {
+/* @media only screen and (width: 320px) {
     .mainCont {
       display: flex;
       flex-direction: column;
@@ -2073,4 +2135,4 @@ p {
       display: none;
     }
   }
-  
+   */

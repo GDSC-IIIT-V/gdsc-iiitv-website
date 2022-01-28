@@ -1,14 +1,14 @@
 .gdsc-image {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   margin-top: 12rem;
   /* padding-left: 20rem; */
 }
 #iiitv-image-img{
   /* position: absolute; */
   /* left: 85%; */
-  margin-bottom: 13%;
+  margin-bottom: 10%;
   opacity: 0;
   animation-name: sliding-iiitv;
   animation-duration: 2s;
@@ -76,16 +76,50 @@ button.button-contact:hover {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 1440px){
-  /* .gdsc-image{
-    height: 0rem;
-    width: 50rem;
-  } */
-  /* #gdsc-image-img{
-    height: 10rem;
-    width: 40rem;
-  } */
-  /* #iiitv-image-img{
+@media only screen and (min-width: 1440px) and (max-width: 1600px){
+  #iiitv-image-img{
     margin-bottom: 13%;
-  } */
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
+}
+
+
+@media only screen and (min-width: 1601px) and (max-width: 1800px){
+  #iiitv-image-img{
+    margin-bottom: 12%;
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px){
+  #iiitv-image-img{
+    margin-bottom: 15%;
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
+  #iiitv-image-img{
+    margin-bottom: 16.9%;
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 999px){
+  #iiitv-image-img{
+    margin-bottom: 20%;
+  }
+  .gdsc-image{
+    margin-left: 10rem;
+  }
 }
