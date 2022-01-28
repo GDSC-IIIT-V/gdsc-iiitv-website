@@ -1,5 +1,5 @@
 import React from 'react'
-import gdsc from '../../assets/images/gdsc-image.svg'
+import gdsc from '../../assets/images/gdsc-img.svg'
 import iiitv from '../../assets/images/IIITV.svg'
 import './ContactUs.css'
 import linkedin from '../../assets/images/LinkedIn.png'
@@ -10,7 +10,8 @@ import contactusdot from '../../assets/images/contactusdot.png'
 
 function ContactUs() {
   return (
-    <div classname='contactUs'>
+    <>    
+    <div classname='contact-us' id="contact-us">
       <div className='gdsc-image'>
         <img src={gdsc} alt='gdsc' id = "gdsc-image-img"/>
         <img src={iiitv} alt='iiitv' id = "iiitv-image-img"/>
@@ -41,6 +42,7 @@ function ContactUs() {
     </div>
         <img src={contactusdot} alt="dot" className='dot'/>
       </div>
+      </>
 
       
   )

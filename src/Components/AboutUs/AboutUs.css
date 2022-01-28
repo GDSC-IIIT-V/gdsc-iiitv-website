@@ -399,7 +399,7 @@ p {
   #yellowPipe {
     width: 120.6px;
     height: 60px;
-    left: 89%;
+    left: 88%;
     margin-top: -1.2%;
   }
 
@@ -1123,7 +1123,7 @@ p {
     }
   }
 }
-@media only screen and (max-width: 426px) and (min-width: 400px) {
+@media only screen and (max-width: 427px) and (min-width: 399px) {
   #sphere {
     display: none;
   }
@@ -1457,7 +1457,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 379px) and (min-width: 361px) {
+@media only screen and (max-width: 380px) and (min-width: 361px) {
   #sphere {
     display: none;
   }
@@ -1566,7 +1566,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 360px) and (min-width: 350px) {
+@media only screen and (max-width: 360px) and (min-width: 349px) {
   #sphere {
     display: none;
   }
