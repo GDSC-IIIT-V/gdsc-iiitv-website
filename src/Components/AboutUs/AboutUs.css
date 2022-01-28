@@ -1811,49 +1811,53 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    width: 350px;
+    /* width: 350px;
     height: 60px;
     margin-top: 32.5%;
-    left: -18%;
+    left: -18%; */
+    display: none;
   }
   #sphere {
-    left: -4.2%;
+    /* left: -4.2%;
     margin-top: 14.9%;
-    animation: none;
+    animation: none; */
     display: none;
   }
   #greenWholePipe {
-    margin-top: 24.5%;
+    /* margin-top: 24.5%;
     width: 324px;
     height: 200.94px;
-    left: 50%;
+    left: 50%; */
+    display: none;
   }
   #sphere2 {
-    left: 24%;
-    animation: none;
+    /* left: 24%;
+    animation: none; */
     display: none;
   }
   #sphere3 {
-    margin-top: 17.4%;
-    animation: none;
+    /* margin-top: 17.4%;
+    animation: none; */
     display: none;
   }
   #sphere4 {
-    left: 92%;
+    /* left: 92%;
     margin-top: 0.4%;
-    animation: none;
+    animation: none; */
     display: none;
   }
   #blueWholePipe {
-    width: 324px;
+    /* width: 324px;
     height: 200.94px;
     left: 16%;
-    margin-top: -11%;
+    margin-top: -11%; */
+    display: none;
   }
   #yellowPipe {
-    width: 110px;
+    /* width: 110px;
     height: 60px;
-    left: 89.6%;
+    left: 89.6%; */
+    display: none;
   }
 }
 
