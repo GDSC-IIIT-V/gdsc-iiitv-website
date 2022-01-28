@@ -49,6 +49,8 @@
   outline-color: transparent;
   box-shadow: hsl(210, 80%, 42%) 2px 2px 22px;
   text-decoration: none;
+  color: white;
+
 }
 
 .right::after,
@@ -60,10 +62,16 @@
   padding: 40px 40px;
   pointer-events: none;
   text-decoration: none;
+  color: white;
+
 }
 
 .youtubebutton::after {
   font-weight: 200;
   top: -30px;
   left: -20px;
+  color: white;
+}
+a{
+  color: white;
 }
