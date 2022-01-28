@@ -1,7 +1,5 @@
 .youtubebutton {
   font-family: Avenir;
-  top: 300rem;
-  margin-top: 78rem;
   border: none;
   background: none;
   cursor: pointer;
@@ -12,7 +10,7 @@
   background-color: #377af5;
   animation-name: colorchange;
   animation-duration: 8s;
-  transition: ease-in-out;
+  transition: step-end;
   animation-iteration-count: infinite;
   text-decoration: none;
   /* Till here */
@@ -23,25 +21,28 @@
   font-size: 25px;
   color: white;
 
-  background-color: hsl(210, 80%, 42%);
-  box-shadow: hsla(4, 81%, 58%, 0.4) 2px 2px 22px;
+  background-color:#d53e33;
 
   z-index: 0;
   overflow: hidden;
 }
 /* Color change keyframe*/
 @keyframes colorchange {
+  
   0% {
-    background-color: #377af5;
-  }
-  25% {
-    background-color: #399953;
-  }
-  50% {
     background-color: #d53e33;
   }
-  100% {
+  25%{
+    background-color: #377af5;
+  }
+  50% {
+    background-color: #399953;
+  }
+  75% {
     background-color: #fbb300;
+  }
+  0% {
+    background-color: #d53e33;
   }
 }
 

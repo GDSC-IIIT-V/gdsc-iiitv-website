@@ -1,21 +1,25 @@
+.video {
+  margin-top: 1%;
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .wave {
-  position: relative;
-  top: 90rem;
+  padding-bottom: 30%;
+  z-index: -1;
+  position: absolute;
   width: 100%;
 }
 .video-size {
-  position: relative;
-  top: 70rem;
   align-items: center;
-
-  width: 50%;
-  height: 25rem;
-  /* border-radius: 10px; */
-  border: solid 10px #377af5;
+  width: 80%;
+  height: 55%;
+  border: 10px solid rgba(243, 245, 248, 0.5);;
   border-radius: 10px;
-  animation-name: colorchange;
-  animation-duration: 4s;
-  box-shadow: black 1.5px 1.5px 22px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes colorchange {
@@ -26,22 +30,104 @@
     border-color: #399953;
   }
   50% {
+    border-color: #fbb300;
+  }
+  75% {
     border-color: #d53e33;
   }
   100% {
-    border-color: #fbb300;
+    border-color: #377af5;
   }
 }
-.video-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.scircle {
+  height: 40px;
+  width: 40px;
+  margin-left: 120%;
+  margin-top: 40%;
+  position: absolute;
+ 
+  animation: 8s linear infinite rotates;
 }
 
-@media only screen and (max-width: 496px){
-  .video-size{
-    height:20rem;
-    width: 50%;
+.bcircle {
+  height: 80px;
+  width: 80px;
+  margin-top: 60%;
+  margin-left: 140%;
+  position: absolute;
+
+
+  animation: 8s linear infinite rotateb;
+}
+@keyframes rotates {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateb {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.video-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .video {
+    margin-top: 100%;
+  }
+  .wave{
+  padding-bottom: 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+ .wave{
+    padding-bottom: 15%;
+  }
+ .scircle{
+   height: 60px; 
+    width: 60px; 
+ }
+ .bcircle{
+   height: 120px;
+    width: 120px; 
+ }
+}
+
+@media only screen and (max-width: 496px) {
+  .video-size {
+    height: 50%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wave {
+    display: none;
+  }
+  .bcircle{
+    display: none;
+  }
+  .scircle{
+    display: none;
   }
 }
