@@ -90,7 +90,7 @@
   height: 100%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
   .video {
     margin-top: 100%;
   }
@@ -113,14 +113,25 @@
  }
 }
 
-@media only screen and (max-width: 496px) {
+@media only screen and (width: 768px) {
+  .video-wrapper{
+    width: 70%;
+  }
   .video-size {
     height: 50%;
     width: 80%;
   }
+  .bcircle{
+    margin-left: 120%;
+  }
+  .scircle{
+    margin-left: 100%;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 767px) {
   .wave {
     display: none;
   }
@@ -129,5 +140,12 @@
   }
   .scircle{
     display: none;
+  }
+  .video-size {
+    height: 50%;
+    width: 90%;
+  }
+  .video-wrapper{
+    width: 90%;
   }
 }

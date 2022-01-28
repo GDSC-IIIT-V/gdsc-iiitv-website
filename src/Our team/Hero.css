@@ -109,8 +109,8 @@
   font-family: SeoulNamsan;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 20px;
   text-align: center;
 
   color: rgba(0, 0, 0, 0.8);
@@ -122,8 +122,8 @@
   font-family: SeoulNamsan;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 18px;
   text-align: center;
 
   color: #000000;
@@ -166,6 +166,9 @@
     width: 150px;
     height: 150px;
   }
+  .leads-title{
+    font-size:40px ;
+  }
 }
 
 @media only screen and (min-width: 100px) and (max-width: 400px){
@@ -173,10 +176,14 @@
     padding-left: 1%;
     padding-right: 1%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     text-align: center;
     padding-top: 8%;
     height: 600px;
+  }
+
+  .leads-content-container{
+    height: 250px;
   }
 
   .leads-image {
@@ -204,4 +211,7 @@
     width: 140px;
     height: 25px;
     font-size: 18px;}
+    .leads-title{
+      font-size:36px ;
+    }
 }

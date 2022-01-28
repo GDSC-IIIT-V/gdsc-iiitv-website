@@ -127,7 +127,10 @@
     .logo-team{
       width: 55%;
     }
-   
+    .homeimg{
+      height: 30px;
+      width: 30px;
+    }
 
   }
 
@@ -147,7 +150,10 @@
     .part2-team{
       width: 40%;
     }
-    
+    .homeimg{
+      height: 25px;
+      width: 25px;
+    }
    
 
   }
@@ -173,7 +179,10 @@
       width: 40%;
     }
     
-   
+    .homeimg{
+      height: 22px;
+      width: 22px;
+    }
 
   }
 
@@ -197,7 +206,10 @@
     .part2-team{
       width: 40%;
     }
-    
+    .homeimg{
+      height: 20px;
+      width: 20px;
+    }
    
 
   }

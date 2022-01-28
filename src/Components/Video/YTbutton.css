@@ -2,23 +2,22 @@
   font-family: Avenir;
   border: none;
   background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  /*Colorchange code*/
   padding: 1rem 2rem 1rem 2rem;
   border-radius: 12px;
-  border-width: 0;
-  background-color: #377af5;
   animation-name: colorchange;
   animation-duration: 8s;
   transition: step-end;
   animation-iteration-count: infinite;
   text-decoration: none;
-  /* Till here */
-
+  height:60px ;
+  width:250px ;
   font-weight: 900;
-  text-decoration: none;
-
-  font-size: 25px;
+  letter-spacing: 1px;
+  font-size: 18px;
   color: white;
 
   background-color:#d53e33;
@@ -26,6 +25,7 @@
   z-index: 0;
   overflow: hidden;
 }
+
 /* Color change keyframe*/
 @keyframes colorchange {
   
@@ -77,9 +77,3 @@ a{
   color: white;
 }
 
-@media only screen and (max-width: 379px){
-  .youtubebutton{
-    height: 8rem;
-    width: 10rem;
-  }
-}

@@ -100,3 +100,21 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .events {
+    &__title {
+      margin-bottom: 4%;
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .events {
+    &__title {
+      margin-bottom: 4%;
+      font-size: 36px;
+    }
+  }
+}

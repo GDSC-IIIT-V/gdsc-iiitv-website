@@ -1561,7 +1561,7 @@ p {
     position: absolute;
     width: 155px;
     height: 60.94px;
-    left: 240px;
+    left: 220px;
     margin-top: 185%;
   }
 }
@@ -2223,7 +2223,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 546px) and (min-width: 540px) {
+@media only screen and (max-width: 546px) and (min-width: 539px) {
   #line33 {
     display: none;
   }

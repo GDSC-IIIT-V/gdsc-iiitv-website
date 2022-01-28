@@ -425,3 +425,20 @@
     display: none;
   }
 }
+@media screen and (max-width:768px) {
+  .Team-table-image-container {
+    display: none;
+  }
+  .Team-header{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .Team-table-image-container {
+    display: none;
+  }
+  .Team-header{
+    font-size: 36px;
+  }
+}

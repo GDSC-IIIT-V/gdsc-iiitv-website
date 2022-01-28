@@ -18,19 +18,19 @@ function ContactUs() {
       </div>
       <div className='contactus-button'>
 
-        <button className='button-contact'>Contact Us</button>
+      <p className='button-contact'>Contact Us</p>
         
         <div className='socialmedia'>
           <a href='https://www.youtube.com/' target='_blank' rel='noreferrer'>
-            <img src={linkedin} alt='LinkedIn' className='iconimg' />
+            <img src={linkedin} alt='LinkedIn' className='iconimg-c' />
           </a>
 
           <a href='https://www.youtube.com/' target='_blank' rel='noreferrer'>
-            <img src={twitter} alt='twitter' className='iconimg' />
+            <img src={twitter} alt='twitter' className='iconimg-c' />
           </a>
 
           <a href='https://www.youtube.com/' target='_blank' rel='noreferrer'>
-            <img src={discord} alt='discord' className='iconimg' />
+            <img src={discord} alt='discord' className='iconimg-c' />
           </a>
         </div>
         
