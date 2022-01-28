@@ -58,7 +58,7 @@
 
 .button-contact {
   border: solid 3px transparent;
-  padding: 1rem 5rem 1rem 5rem;
+  padding: 2rem;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
@@ -241,6 +241,10 @@ button.button-contact:hover {
 }
 
 @media only screen and (max-width: 399px) and (min-width: 281px){
+  .button-contact{
+    height: 8rem;
+    width: 10rem;
+  }
     #iiitv-image-img{
       height: 50px;
       width: 150px;
@@ -282,6 +286,10 @@ button.button-contact:hover {
 }
 
 @media only screen and (max-width: 280px){
+  .button-contact{
+    height: 8rem;
+    width: 10rem;
+  }
   #iiitv-image-img{
     height: 50px;
     width: 150px;

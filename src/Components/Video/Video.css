@@ -8,8 +8,8 @@
   top: 70rem;
   align-items: center;
 
-  width: 550px;
-  height: 350px;
+  width: 50%;
+  height: 25rem;
   /* border-radius: 10px; */
   border: solid 10px #377af5;
   border-radius: 10px;
@@ -37,4 +37,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 496px){
+  .video-size{
+    height:20rem;
+    width: 50%;
+  }
 }

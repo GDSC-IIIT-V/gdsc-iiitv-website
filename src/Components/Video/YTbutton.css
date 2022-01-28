@@ -75,3 +75,10 @@
 a{
   color: white;
 }
+
+@media only screen and (max-width: 379px){
+  .youtubebutton{
+    height: 8rem;
+    width: 10rem;
+  }
+}

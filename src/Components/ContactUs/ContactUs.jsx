@@ -17,7 +17,7 @@ function ContactUs() {
       </div>
       <div className='contactus-button'>
 
-        <button className='button-contact'> Contact Us</button>
+        <button className='button-contact'>Contact Us</button>
         
         <div className='socialmedia'>
           <a href='https://www.youtube.com/' target='_blank' rel='noreferrer'>
