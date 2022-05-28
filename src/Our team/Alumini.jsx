@@ -10,7 +10,7 @@ function Alumina() {
     <>
     <Navbar/>
     <div className="leads-container" id='team'>
-    <div className="leads-title">Alumini</div>
+    <div className="leads-title">Alumni</div>
     <div className="leads-content-wrapper">
      
 

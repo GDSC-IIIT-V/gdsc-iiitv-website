@@ -1,3 +1,10 @@
+.leads-container__core{
+  margin-top: 0%;
+  display: 'flex';
+  flex-direction: 'column';
+  justify-content: 'space-around';
+}
+
 .leads-container {
   margin-top: 0%;
 }

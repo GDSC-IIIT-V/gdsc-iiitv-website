@@ -10,7 +10,7 @@ import mlai_lead from "../../assets/images/leads/mlai_lead.svg"
 
 export const Alumini = [
   {
-    name: "alu Anubhav Madhav",
+    name: "Anubhav Madhav",
     position: "GDSC Lead",
     imgurl: gdsc_lead,
     githublink: "https://github.com/AnubhavMadhav",

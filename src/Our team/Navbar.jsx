@@ -15,8 +15,8 @@ const Navbar = () => {
           </div>
 
           <div className="logotext">
-            <p className="linktext-team txtebold">GDSC</p>{" "}
-            <p className="linktext-team">IIITV</p>
+            <p className="linktext-team txtebold">GDSC</p>
+            <p className="linktext-team">IIIT-V</p>
           </div>
         </div>
         </div>

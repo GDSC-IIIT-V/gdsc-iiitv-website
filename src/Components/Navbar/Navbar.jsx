@@ -15,13 +15,16 @@ const Navbar = () => {
           </div>
 
           <div className="logotext">
-            <p className="linktext txtebold">
-              GDSC 
-            </p>
-            {" "}
-            <p className="linktext">
-             IIITV
-            </p>
+            <div>
+              <p className="linktext txtebold">
+                GDSC 
+              </p>
+            </div>
+            <div>
+              <p className="linktext">
+              IIIT-V
+              </p>
+            </div>
           </div>
         </div>
 
@@ -52,6 +55,11 @@ const Navbar = () => {
         <div>
           <a href="#contactUs" className="linktext">
             Contact Us
+          </a>
+        </div>
+        <div className="join__us__button">
+          <a href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/" className="join__us">
+            Join Us
           </a>
         </div>
       </div>
