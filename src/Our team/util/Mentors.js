@@ -1,68 +1,130 @@
-import gdsc_lead from "../../assets/images/leads/gdsc_lead.svg"
-import pr_lead from "../../assets/images/leads/pr_lead.svg"
-import flutter_lead from "../../assets/images/leads/flutter_lead.svg"
-import webdev_lead from "../../assets/images/leads/webdev_lead.svg"
-import android_lead from "../../assets/images/leads/android_lead.svg"
-import arvr_lead from "../../assets/images/leads/arvr_lead.svg"
-import design_lead from "../../assets/images/leads/design_lead.svg"
-import mlai_lead from "../../assets/images/leads/mlai_lead.svg"
+import blockchain_mentor1 from "../../assets/images/mentors/blockchain/blockchain_mentor1.svg";
+import cloud_mentor1 from "../../assets/images/mentors/cloud/cloud_mentor1.svg";
+import technicalWriting_mentor1 from "../../assets/images/mentors/technicalWriting/technicalWriting_mentor1.svg";
+import uiux_mentor1 from "../../assets/images/mentors/ui-ux/uiux_mentor1.svg";
+import openSource_mentor1 from "../../assets/images/mentors/openSource/openSource_mentor1.svg";
+import android_mentor1 from "../../assets/images/mentors/android/android_mentor1.svg";
+import openSource_mentor2 from "../../assets/images/mentors/openSource/openSource_mentor2.svg";
+import openSource_mentor3 from "../../assets/images/mentor/openSource/openSource_mentor3.svg"
+import openSource_mentor4 from "../../assets/images/mentor/openSource/openSource_mentor4.svg"
+import webDev_mentor1 from "../../assets/images/mentors/webDev/webDev_mentor1.svg"
+import webDev_mentor2 from "../../assets/images/mentors/webDev/webDev_mentor2.svg"
+import dsa_mentor1 from "../../assets/images/mentors/dsa/dsa_mentor1.svg"
+import mlai_mentor1 from "../../assets/images/mentors/mlai/mlai_mentor1.svg";
+import webDev_mentor3 from "../../assets/images/mentors/webDev/webDev_mentor3.svg";
+import blockchain_mentor2 from "../../assets/images/mentors/blockchain/blockchain_mentor2.svg";
+import flutter_mentor1 from "../../assets/images/mentors/flutter/flutter_mentor1.svg";
+
 
 
 export const Mentors = [
   {
-    name: "Anubhav Madhav",
-    position: "GDSC Lead",
-    imgurl: gdsc_lead,
-    githublink: "https://github.com/AnubhavMadhav",
-    linkedinlink: "https://www.linkedin.com/in/anubhav-madhav/",
+    name: "Naman Kalra",
+    position: "Blockchain Mentor",
+    imgurl: blockchain_mentor1,
+    githublink: "https://github.com/Naman-1234",
+    linkedinlink: "https://www.linkedin.com/in/naman-kalra-9192571aa/",
   },
   {
-    name: "Raghvi Saxena",
-    position: "Public Relations Lead",
-    imgurl: pr_lead,
-    githublink: "https://github.com/raghvisaxena",
-    linkedinlink: "https://www.linkedin.com/in/raghvisaxena/",
+    name: "Yash Shah",
+    position: "Cloud Mentor",
+    imgurl: cloud_mentor1,
+    githublink: "https://github.com/theyashshahs/",
+    linkedinlink: "https://www.linkedin.com/in/theyashshahs",
   },
   {
-    name: "Kapil Kumar",
-    position: "Flutter Lead",
-    imgurl: flutter_lead,
-    githublink: "https://github.com/kapilkumar2001",
-    linkedinlink: "https://www.linkedin.com/in/kapilkumar2001/",
+    name: "Darshan Hande",
+    position: "Technical Writing Mentor",
+    imgurl: technicalWriting_mentor1,
+    githublink: "https://github.com/darshanhande11",
+    linkedinlink: "https://www.linkedin.com/in/darshan-hande-6a7479128",
   },
   {
-    name: "Shivansh Kumar",
-    position: "Web Dev Lead",
-    imgurl: webdev_lead,
-    githublink: "https://github.com/ShivanshKumar",
-    linkedinlink: "https://www.linkedin.com/in/shivansh-kumar-248a751a0/",
+    name: "Subhanjali Sharma",
+    position: "UI/UX Mentor",
+    imgurl: uiux_mentor1,
+    githublink: "https://github.com/subhanjali",
+    linkedinlink: "https://www.linkedin.com/in/subhanjali-sharma-9102511b2/",
   },
   {
-    name: "Aman Kothari",
-    position: "Android Lead",
-    imgurl: android_lead,
-    githublink: "https://github.com/AmanKothari20",
-    linkedinlink: "https://www.linkedin.com/in/aman-kothari-9b375319b/",
+    name: "Nitanshu Lokhande",
+    position: "Open Source Mentor",
+    imgurl: openSource_mentor1,
+    githublink: "https://github.com/nlok5923",
+    linkedinlink: "https://www.linkedin.com/in/nitanshu-lokhande-5b60691a0/",
   },
   {
-    name: "Samarth Singh",
-    position: "AR/VR Lead",
-    imgurl: arvr_lead,
-    githublink: "https://github.com/sam20code",
-    linkedinlink: "https://www.linkedin.com/in/samarth-singh-56b5251b4/",
+    name: "Gulshan Patidar",
+    position: "Android Mentor",
+    imgurl: android_mentor1,
+    githublink: "https://github.com/gulshanpatidar",
+    linkedinlink: "https://www.linkedin.com/in/gulshan-patidar-8114821aa",
   },
   {
-    name: "Divyam Solanki",
-    position: "Design Lead",
-    imgurl: design_lead,
-    githublink: "https://github.com/solankidivyam",
-    linkedinlink: "https://www.linkedin.com/in/divyam-solanki-7a9a12190/",
+    name: "Keshav Agarwal",
+    position: "Open Source Mentor",
+    imgurl: openSource_mentor2,
+    githublink: "https://github.com/keshavagarwal17",
+    linkedinlink: "https://www.linkedin.com/in/keshavagarwal1710/",
   },
   {
-    name: "Krishna Gaur",
-    position: "ML/AI Lead",
-    imgurl: mlai_lead,
-    githublink: "https://github.com/gaurKrishna",
-    linkedinlink: "https://www.linkedin.com/in/krishna-gaur/",
+    name: "Aman Ghumra",
+    position: "Web Dev Mentor",
+    imgurl: webDev_mentor1,
+    githublink: "https://github.com/Aman7127",
+    linkedinlink: "https://www.linkedin.com/in/aman-ghumra-491031205/",
   },
+  {
+    name: "Abhijeet Tamrakar",
+    position: "DSA Mentor",
+    imgurl: dsa_mentor1,
+    githublink: "https://github.com/mrcchef",
+    linkedinlink: "https://www.linkedin.com/in/abhijeettamrakar/",
+  },
+  {
+    name: "Himanshu Mishra",
+    position: "Web Dev Mentor",
+    imgurl: webDev_mentor2,
+    githublink: "https://github.com/Himanshu44626748",
+    linkedinlink: "https://www.linkedin.com/in/himanshu-mishra-a2a4801aa/",
+  },  {
+    name: "Abhinav Gupta",
+    position: "ML/AI Mentor",
+    imgurl: mlai_mentor1,
+    githublink: "https://github.com/Abhinav1299",
+    linkedinlink: "https://www.linkedin.com/in/abhinav-gupta-933825180/",
+  },  {
+    name: "Amitvikram Dwivedi",
+    position: "Web Dev Mentor",
+    imgurl: webDev_mentor3,
+    githublink: "https://github.com/batflarrow/",
+    linkedinlink: "https://www.linkedin.com/in/amitbatflarrow/",
+  },  {
+    name: "Akshat Dobriyal",
+    position: "Blockchain Mentor",
+    imgurl: blockchain_mentor2,
+    githublink: "https://github.com/AkshatDobriyal",
+    linkedinlink: "https://www.linkedin.com/in/akshat-dobriyal-b1aa7a200/",
+  },  {
+    name: "Kshittiz Bhardwaj",
+    position: "Flutter mentor",
+    imgurl: flutter_mentor1,
+    githublink: "https://github.com/Kshittiz21",
+    linkedinlink: "https://www.linkedin.com/in/kshittiz-bhardwaj-60ab88187/",
+  }, 
+
+  {
+    name: "Sanjay Prajapati",
+    position: "Open Source Mentor",
+    imgurl: openSource_mentor3,
+    githublink: "https://github.com/sanjay270899",
+    linkedinlink: "https://www.linkedin.com/in/sanjay270899",
+  }, {
+    name: "Rahul Bansal",
+    position: "Open Source Mentor",
+    imgurl: openSource_mentor4,
+    githublink: "https://github.com/RahulBansal0502",
+    linkedinlink: "https://www.linkedin.com/in/rahulbansal52/",
+  }, 
+
 ];
