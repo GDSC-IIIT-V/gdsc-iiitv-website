@@ -15,7 +15,7 @@
   .logo{
     display: flex;
     flex-direction: row;
-    width: 55%;
+    width: 59%;
     justify-content: space-around;
     align-items: center;
     /* border: 1px solid black; */
@@ -79,7 +79,6 @@
   }
   .join__us{
     font-family: avenir-bold;
-    
   }
 
   @media only screen and (min-width:1123px){

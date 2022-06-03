@@ -27,11 +27,13 @@ const Hero = () => {
               </div>
             </div>
             <div className="hero-text">
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-              used in laying out print, graphic or web designs. The passage is
-              attributed to an unknown typesetter in the 15th century who is
-              thought to have scrambled parts of Cicero's De Finibus Bonorum et
-              Malorum for use in a type specimen book. It usually begins with..
+              IIIT Vadodara's GDSC is a community platform for students
+              interested in Google developer tools and technologies. GDSC aims
+              at creating a supportive environment for students by helping them
+              build networks, share ideas and come up with authentic solutions
+              for significant problems. We welcome you to collaborate on
+              different projects, get hands on experience and enhance your
+              development skills. Our goal is simple - To Learn and Grow together! 
             </div>
           </div>
         </div>
@@ -42,7 +44,7 @@ const Hero = () => {
               <img src={poly1} className="triimg" alt="tri1"></img>
             </div>
             <div className="loader t2">
-              <img src={poly2}className="triimg" alt="tri2"></img>
+              <img src={poly2} className="triimg" alt="tri2"></img>
             </div>
             <div className="loader t3">
               <img src={poly3} className="triimg" alt="tri3"></img>
@@ -52,9 +54,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>   
+      </div>
       <img src={heroline} alt="line" className="line-img" />
-
     </>
   );
 };

@@ -12,9 +12,7 @@ function Alumina() {
     <div className="leads-container" id='team'>
     <div className="leads-title">Alumni</div>
     <div className="leads-content-wrapper">
-     
-
-
+      
         {Alumini.map(( Alumini, index) => (
           <div className="leads-content-container" key={index}>
             <div className="imagee">

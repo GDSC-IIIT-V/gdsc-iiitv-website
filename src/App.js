@@ -14,6 +14,7 @@ import Volunteers from "./Our team/Volunteers";
 
 import "./App.css";
 
+
 function App() {
   return (
     <Router>
@@ -32,10 +33,10 @@ function App() {
             </>
           }
         ></Route>
-        <Route path="/Alumini" element={<Alumini />}></Route>
-        <Route path="/Coreteam" element={<Coreteam />}></Route>
-        <Route path="/Mentors" element={<Mentors />}></Route>
-        <Route path="/Volunteers" element={<Volunteers />}></Route>
+          <Route path="/Alumini" element={<Alumini />}></Route>
+          <Route path="/Coreteam" element={<Coreteam />}></Route>
+          <Route path="/Mentors" element={<Mentors />}></Route>
+          <Route path="/Volunteers" element={<Volunteers />}></Route>
       </Routes>
     </Router>
   );

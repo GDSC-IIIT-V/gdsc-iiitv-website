@@ -7,7 +7,7 @@ body {
   overflow-x: clip;
 }
 .box1 {
-  height: 290px;
+  /* height: 290px; */
   width: 390px;
   /* border: 2px solid black; */
   background: #ffffff;
@@ -29,7 +29,7 @@ body {
   }
 }
 .box2 {
-  height: 290px;
+  /* height: 290px; */
   width: 390px;
   /* border: 2px solid black; */
   background: #ffffff;
@@ -51,7 +51,7 @@ body {
   }
 }
 .box3 {
-  height: 290px;
+  /* height: 290px; */
   width: 390px;
   /* border: 2px solid black; */
   background: #ffffff;
@@ -337,17 +337,17 @@ p {
   }
   .box1 {
     width: 220px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box2 {
     width: 220px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box3 {
     width: 220px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   #sphere {
@@ -491,19 +491,19 @@ p {
   }
   .box1 {
     width: 260px;
-    height: 220px;
+    /* height: 220px; */
     animation: none;
   }
 
   .box2 {
     width: 260px;
-    height: 220px;
+    /* height: 220px; */
     animation: none;
   }
 
   .box3 {
     width: 260px;
-    height: 220px;
+    /* height: 220px; */
     animation: none;
   }
   #sphere{
@@ -561,19 +561,19 @@ p {
 
   .box1 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
     animation: none;
   }
 
   .box2 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
     animation: none;
   }
 
   .box3 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
     animation: none;
   }
 
@@ -598,17 +598,17 @@ p {
   }
   .box1 {
     width: 300px;
-    height: 220px;
+    /* height: 220px; */
   }
 
   .box2 {
     width: 300px;
-    height: 220px;
+    /* height: 220px; */
   }
 
   .box3 {
     width: 300px;
-    height: 220px;
+    /* height: 220px; */
   }
 
   #sphere {
@@ -730,17 +730,17 @@ p {
   }
   .box1 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box2 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box3 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   #sphere {
@@ -858,17 +858,17 @@ p {
   }
   .box1 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box2 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
 
   .box3 {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
   #redWholePipe {
     margin-top: 16%;
@@ -1156,19 +1156,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     animation: none;
   }
@@ -1179,33 +1179,36 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: -4px;
-    margin-top: -12%;
+    margin-top: -12%; */
+    display: none;
   }
   #redExt {
-    /* display: none; */
-    width: 70px;
+    display: none;
+    /* width: 70px;
     height: 60.94px;
     left: -4px;
-    margin-top: -18%;
+    margin-top: -18%; */
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    display: none;
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 171px;
-    margin-top: 55%;
+    margin-top: 55%; */
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    display: none;
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -32%;
-    margin-top: 100%;
+    margin-top: 100%; */
   }
   #line33 {
     display: none;
@@ -1264,19 +1267,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     animation: none;
   }
@@ -1378,19 +1381,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     animation: none;
   }
@@ -1401,33 +1404,36 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: -4px;
-    margin-top: -12%;
+    margin-top: -12%; */
+    display: none;
   }
   #redExt {
-    /* display: none; */
-    width: 70px;
+    display: none;
+    /* width: 70px;
     height: 60.94px;
     left: -4px;
-    margin-top: -18.45%;
+    margin-top: -18.45%; */
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 156px;
-    margin-top: 58%;
+    margin-top: 58%; */
+    display: none;
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -38%;
-    margin-top: 108%;
+    margin-top: 108%; */
+    display: none;
   }
   #line33 {
     display: none;
@@ -1449,11 +1455,12 @@ p {
         height: 60.94px; */
   }
   #yellowPipe {
-    position: absolute;
+    /* position: absolute;
     width: 115px;
     height: 60.94px;
     left: 260px;
-    margin-top: 176%;
+    margin-top: 176%; */
+    display: none;
   }
 }
 
@@ -1491,19 +1498,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     animation: none;
   }
@@ -1514,33 +1521,36 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: -4px;
-    margin-top: -12%;
+    margin-top: -12%; */
+    display: none;
   }
   #redExt {
-    /* display: none; */
-    width: 70px;
+    display: none;
+    /* width: 70px;
     height: 60.94px;
     left: -4px;
-    margin-top: -18.65%;
+    margin-top: -18.65%; */
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 140px;
-    margin-top: 58%;
+    margin-top: 58%; */
+    display: none;
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -41%;
-    margin-top: 108%;
+    margin-top: 108%; */
+    display: none;
   }
   #line33 {
     display: none;
@@ -1558,11 +1568,12 @@ p {
     display: none;
   }
   #yellowPipe {
-    position: absolute;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: 220px;
-    margin-top: 185%;
+    margin-top: 185%; */
+    display: none;
   }
 }
 
@@ -1600,19 +1611,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 188px;
     animation: none;
   }
@@ -1623,33 +1634,36 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: -4px;
-    margin-top: -12%;
+    margin-top: -12%; */
+    display: none;
   }
   #redExt {
-    /* display: none; */
-    width: 70px;
+    display: none;
+    /* width: 70px;
     height: 60.94px;
     left: -4px;
-    margin-top: -18.95%;
+    margin-top: -18.95%; */
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    display: none;
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 140px;
-    margin-top: 58%;
+    margin-top: 58%; */
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    display: none;
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -44%;
-    margin-top: 108%;
+    margin-top: 108%; */
   }
   #line33 {
     display: none;
@@ -1671,11 +1685,12 @@ p {
         height: 60.94px; */
   }
   #yellowPipe {
-    position: absolute;
+    /* position: absolute;
     width: 115px;
     height: 60.94px;
     left: 245px;
-    margin-top: 194%;
+    margin-top: 194%; */
+    display: none;
   }
 }
 @media only screen and (width: 912px) {
@@ -1700,19 +1715,19 @@ p {
   }
   .box1 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
 
   .box2 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
 
   .box3 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
   h4 {
@@ -1789,19 +1804,19 @@ p {
   }
   .box1 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
 
   .box2 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
 
   .box3 {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     animation: none;
   }
   h4 {
@@ -1905,19 +1920,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     animation: none;
   }
@@ -2028,19 +2043,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     animation: none;
   }
@@ -2051,29 +2066,32 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: 3%;
-    margin-top: -10%;
+    margin-top: -10%; */
   }
   #redExt {
     display: none;
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    display: none;
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 48%;
-    margin-top: 50%;
+    margin-top: 50%; */
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    display: none;
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -16%;
-    margin-top: 90%;
+    margin-top: 90%; */
   }
   #line33 {
     display: none;
@@ -2095,11 +2113,12 @@ p {
         height: 60.94px; */
   }
   #yellowPipe {
-    position: absolute;
+    display: none;
+     /* position: absolute;
     width: 105px;
     height: 60.94px;
     left: 70%;
-    margin-top: 120%;
+    margin-top: 120%; */
   }
 }
 
@@ -2148,19 +2167,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     animation: none;
   }
@@ -2171,29 +2190,32 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: 3%;
-    margin-top: -10%;
+    margin-top: -10%; */
   }
   #redExt {
     display: none;
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    display: none;
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 48%;
-    margin-top: 50%;
+    margin-top: 50%; */
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    display: none;
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -19%;
-    margin-top: 95%;
+    margin-top: 95%; */
   }
   #line33 {
     display: none;
@@ -2215,11 +2237,12 @@ p {
         height: 60.94px; */
   }
   #yellowPipe {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     width: 105px;
     height: 60.94px;
     left: 70%;
-    margin-top: 130%;
+    margin-top: 130%; */
   }
 }
 
@@ -2267,19 +2290,19 @@ p {
   }
 
   .box1 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box2 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     margin-bottom: 7%;
     animation: none;
   }
   .box3 {
-    height: 150px;
+    /* height: 150px; */
     width: 288px;
     animation: none;
   }
@@ -2290,33 +2313,36 @@ p {
     font-size: 14px;
   }
   #redWholePipe {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     width: 155px;
     height: 60.94px;
     left: 3%;
-    margin-top: -10%;
+    margin-top: -10%; */
   }
   #redExt {
-    /* display: none; */
-    width: 70px;
+    display: none;
+    /* width: 70px;
     height: 60.94px;
     left: -1%;
-    margin-top: -14.7%;
+    margin-top: -14.7%; */
   }
   #blueWholePipe {
-    transform: rotateZ(270deg);
+    display: none;
+    /* transform: rotateZ(270deg);
     width: 387px;
     height: 50.94px;
     left: 49%;
-    margin-top: 50%;
+    margin-top: 50%; */
   }
   #greenWholePipe {
-    transform: rotateZ(630deg);
+    display: none;
+    /* transform: rotateZ(630deg);
     position: absolute;
     width: 387px;
     height: 48.94px;
     left: -21%;
-    margin-top: 95%;
+    margin-top: 95%; */
   }
   #line33 {
     display: none;
@@ -2338,11 +2364,12 @@ p {
         height: 60.94px; */
   }
   #yellowPipe {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     width: 105px;
     height: 60.94px;
     left: 70%;
-    margin-top: 135%;
+    margin-top: 135%; */
   }
 }
 
@@ -2366,14 +2393,14 @@ p {
   }
   .box1 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
@@ -2395,7 +2422,7 @@ p {
   }
   .box3 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     animation: none;
   }
   h4 {
@@ -2406,32 +2433,36 @@ p {
   }
 
   #redWholePipe {
-    width: 130px;
+    display: none;
+    /* width: 130px;
     height: 50px;
     margin-top: 102%;
-    left: -10%;
+    left: -10%; */
   }
 
   #blueWholePipe {
-    width: 230px;
+    display: none;
+    /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
     left: 63%;
-    margin-top: -250%;
+    margin-top: -250%; */
   }
 
   #greenWholePipe {
-    width: 230px;
+    display: none;
+    /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
     left: -32%;
-    margin-top: 320%;
+    margin-top: 320%; */
   }
   #yellowPipe {
-    width: 110px;
+    display: none;
+    /* width: 110px;
     height: 50px;
     margin-top: -30%;
-    left: 70%;
+    left: 70%; */
   }
   #yellExt {
     display: none;
@@ -2464,14 +2495,14 @@ p {
   }
   .box1 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
@@ -2493,7 +2524,7 @@ p {
   }
   .box3 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     animation: none;
   }
   h4 {
@@ -2504,32 +2535,36 @@ p {
   }
 
   #redWholePipe {
-    width: 130px;
+    display: none;
+    /* width: 130px;
     height: 50px;
     margin-top: 88%;
-    left: -10%;
+    left: -10%; */
   }
 
   #blueWholePipe {
-    width: 230px;
+   display: none;
+    /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
     left: 54%;
-    margin-top: -210%;
+    margin-top: -210%; */
   }
 
   #greenWholePipe {
-    width: 230px;
+    display: none;
+    /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
     left: -28%;
-    margin-top: 270%;
+    margin-top: 270%; */
   }
   #yellowPipe {
-    width: 75px;
+   display: none;
+    /* width: 75px;
     height: 50px;
     margin-top: -30%;
-    left: 70%;
+    left: 70%; */
   }
   #yellExt {
     display: none;
@@ -2571,14 +2606,14 @@ p {
   }
   .box1 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
@@ -2600,7 +2635,7 @@ p {
   }
   .box3 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     animation: none;
   }
   h4 {
@@ -2705,20 +2740,20 @@ p {
   }
   .box1 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
   .box3 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     animation: none;
   }
   h4 {
@@ -2779,20 +2814,20 @@ p {
   }
   .box1 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     margin-bottom: -10%;
     animation: none;
   }
   .box3 {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
     animation: none;
   }
   h4 {
@@ -2817,5 +2852,39 @@ p {
     height: 1000px;
     margin-top: -20%;
     margin-left: 10%;
+  }
+}
+
+
+@media only screen and (min-width: 1953px) {
+  #redWholePipe{
+    display: none;
+  }
+  #blueWholePipe{
+    display: none;
+  }
+  #greenWholePipe{
+    display: none;
+  }
+  #yellowPipe{
+    display: none;
+  }
+  #yellExt{
+    display: none;
+  }
+  #redExt{
+    display: none;
+  }
+  #sphere{
+    display: none;
+  }
+  #sphere2{
+    display: none;
+  }
+  #sphere3{
+    display: none;
+  }
+  #sphere4{
+    display: none;
   }
 }

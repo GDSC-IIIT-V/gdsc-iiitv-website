@@ -1,38 +1,47 @@
-import "./Navbar.css";
-import React from "react";
-import { useState } from "react";
-import logo from "../../../assets/images/Logo.svg";
-import drawer from "../../../assets/images/drawer.svg";
+import './Navbar.css';
+import React from 'react';
+import {useState} from 'react';
+import logo from '../../../assets/images/Logo.svg';
+import drawer from '../../../assets/images/drawer.svg';
 
 const BurgerMenu = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState (false);
   return (
     <div className="burger-menu">
       <div className="burger-menu-logo">
-        <div className="logo-burger">
-          <div>
-            <img src={logo} alt="" className="logoimg-burger" />
-          </div>
+        <div style={{display:'flex', justifyContent: 'space-between', width: '88vw', alignItems:'center'}}>
+          <div className="logo-burger">
+            <div>
+              <img src={logo} alt="" className="logoimg-burger" />
+            </div>
 
-          <div className="logotext-burger">
-            <p className="linktext-burger txtebold">GDSC</p>{" "}
-            <p className="linktext-burger">IIITV</p>
+            <div className="logotext-burger">
+              <p className="linktext-burger txtebold">GDSC</p>{' '}
+              <p className="linktext-burger">IIIT-V</p>
+            </div>
+          </div>
+          <div className="join_us__button">
+            <a
+              href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/"
+              style={{color: 'white', fontFamily: 'avenir-bold'}}
+            >
+              Join Us
+            </a>
           </div>
         </div>
+
         <div className="drawer-main">
-          {!open && (
-            <i className="drawer" onClick={() => setOpen(true)}>
+          {!open &&
+            <i className="drawer" onClick={() => setOpen (true)}>
               <img src={drawer} alt="drawer" />
-            </i>
-          )}
-          {open && (
-            <i className="drawer" onClick={() => setOpen(false)}>
+            </i>}
+          {open &&
+            <i className="drawer" onClick={() => setOpen (false)}>
               <img src={drawer} alt="drawer" />
-            </i>
-          )}
+            </i>}
         </div>
       </div>
-      <ul className={(open ? "show-burger-menu" : "") + " burger-menu-item"}>
+      <ul className={(open ? 'show-burger-menu' : '') + ' burger-menu-item'}>
         <li>
           <a href="#team" className="linktext">Team</a>
         </li>

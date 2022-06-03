@@ -6,7 +6,7 @@
 }
 .burger-menu-logo{
     height: 50px;
-
+    width: '100%';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@
 .logo-burger{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     align-items: center;
   }
@@ -108,7 +108,20 @@ ul{
 .burger-menu-item .burger-menu-social-link .fa{
     padding: 0 10px;
 }
-
+.join_us__button{
+    width: 20%;
+    height: 28px;
+    background-color: #3c7afc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+}
+.join__us{
+    font-family: avenir-bold;
+    color: white
+}
 @media only screen and (min-width: 600px)  {
     .burger-menu{
         display:none;

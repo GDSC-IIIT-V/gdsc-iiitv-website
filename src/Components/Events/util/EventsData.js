@@ -7,40 +7,41 @@ import event6 from "../../../assets/images/events/event6.jpg";
 
 const EventsData = [
   {
+    thumbnail: event3,
+    title: "The Beginning",
+    date: "20/09/2021 6pm",
+    text: "First ever introductory meeting full of fun and knowledge for the year 2021-22.",
+  },
+  {
     thumbnail: event1,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
+    title: "Life In CSE",
+    date: "21/01/2022 6pm",
+    text: "Get ready to know of this terra-incognita of infinite from a denizen of the world of computers! 😃👨‍💻",
   },
   {
     thumbnail: event2,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
+    title: "Google STEP Intern",
+    date: "04/10/2021 6pm",
+    text: "Get to know all about Google Step Internship Program from the already experienced Ms. Dhriti Chopra",
   },
-  {
-    thumbnail: event3,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
-  },
+  
   {
     thumbnail: event4,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
+    title: "Introduction to AR/VR",
+    date: "02/10/2021 6pm",
+    text: "Introduction to AR/VR was a workshop where basic knowledge regarding Augmented Reality and Unity Engine was given.",
   },
   {
     thumbnail: event5,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
+    title: "Android Study Jam",
+    date: "16/12/2021 6pm",
+    text: "This session enabled students to start their journey with Android Development, so as to facilitate learning and spreading awareness about this amazing domain.🎇",
   },
   {
-    thumbnail: event6,
-    title: "AI/ML Workshop",
-    date: "06/04/2022 6pm",
-    text: "This workshop gives you the gist of python basics, algorithms used in machine learning and how to move forward in this domain. It is a 4-day hourly workshop...",
+    thumbnail: event5,
+    title: "Flutter Festival",
+    date: "14/02/2022 6pm",
+    text: "This session enables students to know about flutter and was a complete 16 days of flutter sessions with tons of knowledge",
   },
 ];
 
