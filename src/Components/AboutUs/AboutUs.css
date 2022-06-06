@@ -1226,11 +1226,12 @@ p {
     display: none;
   }
   #yellowPipe {
-    position: absolute;
+    /* position: absolute;
     width: 110px;
     height: 60.94px;
     left: 280px;
-    margin-top: 169%;
+    margin-top: 169%; */
+    display: none;
   }
 }
 
