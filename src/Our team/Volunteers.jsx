@@ -7,6 +7,9 @@ import Navbar from "./Navbar";
 import { Volunteers } from "./util/Volunteers";
 
 function Volunteer() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <Navbar/>

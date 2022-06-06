@@ -29,14 +29,14 @@ const Navbar = () => {
         </div>
 
         <div>
-          <a href="#team" className="linktext txtbold">
-            Team
-          </a>
-        </div>
-
-        <div>
           <a href="#aboutUs" className="linktext txtbold">
             About Us
+          </a>
+        </div>
+        
+        <div>
+          <a href="#team" className="linktext txtbold">
+            Team
           </a>
         </div>
       </div>

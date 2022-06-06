@@ -97,7 +97,7 @@ export const Mentors = [
   {
     name: "Sanjay Prajapati",
     position: "Open Source Mentor",
-    imgurl: 'https://i.imgur.com/sUPWKtf.jpeg',
+    imgurl: 'https://i.imgur.com/IvHC9Ov.png',
     githublink: "https://github.com/sanjay270899",
     linkedinlink: "https://www.linkedin.com/in/sanjay270899",
   }, {

@@ -35,7 +35,7 @@ const EventsData = [
     thumbnail: event5,
     title: "Android Study Jam",
     date: "16/12/2021 6pm",
-    text: "This session enabled students to start their journey with Android Development, so as to facilitate learning and spreading awareness about this amazing domain.🎇",
+    text: "This session enabled students to start their journey with Android Development, so as to spreading awareness about this amazing domain",
   },
   {
     thumbnail: event5,

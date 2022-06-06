@@ -6,6 +6,9 @@ import { Alumini } from "./util/Alumini";
 import Navbar from "./Navbar";
 
 function Alumina() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <Navbar/>

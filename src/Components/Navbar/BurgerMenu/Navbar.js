@@ -23,7 +23,7 @@ const BurgerMenu = () => {
           <div className="join_us__button">
             <a
               href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/"
-              style={{color: 'white', fontFamily: 'avenir-bold'}}
+              style={{color: 'white', fontFamily: 'avenir-bold', fontSize: '0.8rem'}}
             >
               Join Us
             </a>

@@ -8,6 +8,9 @@ import { Coreteam } from "./util/Coreteam";
 import Navbar from "./Navbar";
 
 function Coreteama() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Navbar />
