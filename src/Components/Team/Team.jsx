@@ -78,14 +78,14 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="Team-circle-3 c">
+          {/* <div className="Team-circle-3 c">
             <div className="Team-circle-outer-3">
               <Link to="/Mentors">
                 {" "}
                 <div className="Team-circle-inner-3 linktxt">Mentors</div>
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="Team-circle-4 c">
             <div className="Team-circle-outer-4">
