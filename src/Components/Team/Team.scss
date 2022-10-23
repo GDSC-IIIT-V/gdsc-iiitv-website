@@ -242,15 +242,15 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
   transform: rotate(-45deg);
-  animation: rotate-inner-1 4s linear 1 forwards;
+  animation: rotate-inner-1 4s linear infinite forwards;
 }
 
 @keyframes rotate-inner-1 {
   from {
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(135deg);
+    transform: rotate(-360deg);
   }
 }
 .Team-circle-inner-2 {
@@ -267,7 +267,7 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
   transform: rotate(-45deg);
-  animation: rotate-inner-2 4s 5s linear 1 forwards;
+  animation: rotate-inner-2 4s linear infinite forwards;
 }
 
 @keyframes rotate-inner-2 {
@@ -275,7 +275,7 @@
     transform: rotate(-45deg);
   }
   to {
-    transform: rotate(135deg);
+    transform: rotate(-405deg);
   }
 }
 
@@ -293,15 +293,15 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
   transform: rotate(225deg);
-  animation: rotate-inner-3 4s 10s linear 1 forwards;
+  animation: rotate-inner-3 4s linear infinite forwards;
 }
 
 @keyframes rotate-inner-3 {
   from {
-    transform: rotate(-135deg);
+    transform: rotate(-90deg);
   }
   to {
-    transform: rotate(-315deg);
+    transform: rotate(-450deg);
   }
 }
 
@@ -319,11 +319,11 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: avenir;
   transform: rotate(45deg);
-  animation: rotate-inner-4 4s 5s linear 1 forwards;
+  animation: rotate-inner-4 4s linear infinite forwards;
 }
 @keyframes rotate-inner-4 {
   from {
-    transform: rotate(-315deg);
+    transform: rotate(-135deg);
   }
   to {
     transform: rotate(-495deg);
@@ -340,14 +340,14 @@
   border-bottom: 7px solid #fb260a;
   padding: 3px;
   transform: rotate(45deg);
-  animation: rotate-1 4s linear 1 forwards;
+  animation: rotate-1 4s linear infinite forwards;
 }
 @keyframes rotate-1 {
   from {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(-135deg);
+    transform: rotate(360deg);
   }
 }
 .Team-circle-outer-2 {
@@ -360,14 +360,14 @@
   border-left: 7px solid #3c7afc;
   padding: 3px;
   transform: rotate(45deg);
-  animation: rotate-2 4s 5s linear 1 forwards;
+  animation: rotate-2 4s linear infinite forwards;
 }
 @keyframes rotate-2 {
   from {
     transform: rotate(45deg);
   }
   to {
-    transform: rotate(-135deg);
+    transform: rotate(405deg);
   }
 }
 
@@ -381,14 +381,14 @@
   border-left: 7px solid #00a453;
   padding: 3px;
   transform: rotate(135deg);
-  animation: rotate-3 4s 10s linear 1 forwards;
+  animation: rotate-3 4s linear infinite forwards;
 }
 @keyframes rotate-3 {
   from {
-    transform: rotate(135deg);
+    transform: rotate(90deg);
   }
   to {
-    transform: rotate(315deg);
+    transform: rotate(450deg);
   }
 }
 
@@ -402,43 +402,41 @@
   border-bottom: 7px solid #ffbd00;
   padding: 3px;
   transform: rotate(-45deg);
-  animation: rotate-4 4s 5s linear 1 forwards;
+  animation: rotate-4 4s linear infinite forwards;
 }
 @keyframes rotate-4 {
   from {
-    transform: rotate(-45deg);
+    transform: rotate(135deg);
   }
   to {
-    transform: rotate(135deg);
+    transform: rotate(495deg);
   }
 }
 @media screen and (min-width: 1440px) {
-
-  .Team-circle-container{
+  .Team-circle-container {
     padding-top: 2%;
     padding-bottom: 4%;
   }
-  
 }
 @media screen and (max-width: 1023px) {
   .Team-table-image-container {
     display: none;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .Team-table-image-container {
     display: none;
   }
-  .Team-header{
+  .Team-header {
     font-size: 40px;
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .Team-table-image-container {
     display: none;
   }
-  .Team-header{
+  .Team-header {
     font-size: 36px;
   }
 }
