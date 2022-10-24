@@ -1,11 +1,13 @@
-import event1 from "../../../assets/images/events/event1.jpg";
-import event2 from "../../../assets/images/events/event2.jpg";
-import event3 from "../../../assets/images/events/event3.jpg";
-import event4 from "../../../assets/images/events/event4.jpg";
-import event5 from "../../../assets/images/events/event5.jpg";
-import event6 from "../../../assets/images/events/event6.jpg";
+// import event1 from "../../../assets/images/events/event1.jpg";
+// import event2 from "../../../assets/images/events/event2.jpg";
+// import event3 from "../../../assets/images/events/event3.jpg";
+// import event4 from "../../../assets/images/events/event4.jpg";
+// import event5 from "../../../assets/images/events/event5.jpg";
+// import event6 from "../../../assets/images/events/event6.jpg";
 
 const EventsData = [
+  
+  
   {
     thumbnail: 'https://i.imgur.com/g7MUpDC.jpeg',
     title: "The Beginning",
@@ -42,6 +44,30 @@ const EventsData = [
     title: "Flutter Festival",
     date: "14/02/2022 6pm",
     text: "This session enables students to know about flutter and was a complete 16 days of flutter sessions with tons of knowledge",
+  },
+  {
+    thumbnail: 'https://i.imgur.com/YgSo4jl.jpg',
+    title: "Introduction To Android",
+    date: "11/09/2022 6pm",
+    text: "The event  provided the students a platform to share and learn about Android, the world’s most popular mobile platform that powers hundreds of millions of mobile devices in countries around the world. .",
+  },
+  {
+    thumbnail: 'https://i.imgur.com/e5KJr51.png',
+    title: "Introduction to Blockchain",
+    date: "17/09/2022 9pm",
+    text: "In-person Event - A beginner-friendly workshop for people who want to dive into the field of blockchain.",
+  },
+  {
+    thumbnail: 'https://i.imgur.com/GzHFcj2.jpg',
+    title: "Open Source Workshop",
+    date: "1/10/2022 6pm",
+    text: "The workshop was  exclusively for Second year students who aspire to participate in the Contribute-a-thon-22 as well as Hacktoberfest",
+  },
+  {
+    thumbnail: 'https://i.imgur.com/KJA3EzC.jpg',
+    title: "Building Apps with Flultter",
+    date: "9/10/2022 6pm",
+    text: "Topics covered in the session was Introduction to Flutter, Explaining counter app and state management, Exploring common widgets, hands-on experience in UI building session💻 and Intro to Firebase.",
   },
 ];
 
