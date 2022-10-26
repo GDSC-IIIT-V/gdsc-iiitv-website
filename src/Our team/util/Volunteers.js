@@ -1,147 +1,206 @@
 export const Volunteers = [
+
   {
-    name: "Mohammad Amber Rizvi",
-    position: "Flutter Volunteer",
-    imgurl: 'https://i.imgur.com/LzXHkGt.jpeg',
-    githublink: "https://github.com/marizvi",
-    linkedinlink: "https://www.linkedin.com/in/mohd-amber-rizvi-93a55a201/",
+    name: "Ayush Khandelwal",
+    position: "Management Volunteer",
+    githublink: "https://github.com/Ayush-Khandelwal28",
+    linkedinlink: "https://www.linkedin.com/in/ayushkhandelwal28/",
   },
+
   {
-    name: "Madhur Gupta",
-    position: "Web Dev Volunteer",
-    imgurl: 'https://i.imgur.com/E0BczAP.jpeg',
-    githublink: "https://github.com/AmanKothari20",
-    linkedinlink: "https://www.linkedin.com/in/aman-kothari-9b375319b/",
+    name: "Megha Prajapati",
+    position: "Management Volunteer",
+    githublink: "https://github.com/",
+    linkedinlink: "https://www.linkedin.com/in/megha-prajapati-460b7324b",
   },
-  
+
   {
-    name: "Dhruv Dave",
-    position: "Web Dev Volunteer",
-    imgurl: 'https://i.imgur.com/TTVwCbM.jpeg',
-    githublink: "https://github.com/DhruvDave12",
-    linkedinlink: "https://www.linkedin.com/in/dhruv1201/",
+    name: "Dharmik Jethva",
+    position: "Management Volunteer",
+    githublink: "https://github.com/dharmikjethva30",
+    linkedinlink: "https://www.linkedin.com/in/dharmik-jethva-a16900229/",
   },
+
   {
-    name: "Kewal Delhiwala",
-    position: "Open Source Volunteer",
-    imgurl: 'https://i.imgur.com/fpBkSu9.jpeg',
-    githublink: "https://github.com/kewal-wq",
-    linkedinlink: "https://www.linkedin.com/in/kewal-delhiwala-a4ba24201",
+    name: "Akshat Patel",
+    position: "Public Relations Volunteer",
+    githublink: "https://github.com/Infinity04/",
+    linkedinlink: "https://www.linkedin.com/in/akshat-patel-58aab5137/",
   },
+
   {
-    name: "Parth Chandravadiya",
+    name: "Yash Kumar Singh",
+    position: "Public Relations Volunteer",
+    githublink: "https://github.com/yashssingh",
+    linkedinlink: "https://www.linkedin.com/in/yash-singh-b0a23b226",
+  },
+
+  {
+    name: "Gargee Meshram",
+    position: "Public Relations Volunteer",
+    githublink: "https://github.com/gargee2903",
+    linkedinlink: "https://www.linkedin.com/in/gargee-meshram-b2a54a245/",
+  },
+
+  {
+    name: "Satyam Tripathi",
+    position: "Technical Writing Volunteer",
+    githublink: "http://github.com/satyacasm",
+    linkedinlink: "http://linkedin.com/in/satyacasm",
+  },
+
+  {
+    name: "Rachit Singh Chahar",
+    position: "AR/VR Volunteer",
+    githublink: "https://github.com/Created-for-a-purpose",
+    linkedinlink: "https://www.linkedin.com/in/rachit-singh-chahar-197177230",
+  },
+
+  {
+    name: "Shitij Gaur",
+    position: "AR/VR Volunteer",
+    githublink: "https://github.com/shitijG118",
+    linkedinlink: "https://www.linkedin.com/in/shitij-gaur-b33484a3/",
+  },
+
+  {
+    name: "Varun Vilvadrinath",
+    position: "Data Science Volunteer",
+    githublink: "https://github.com/TheLegendVilva",
+    linkedinlink: "https://www.linkedin.com/in/varun-vilvadrinath-428b78238",
+  },
+
+  {
+    name: "Sanidhya Kumar",
     position: "UI/UX Volunteer",
-    imgurl: 'https://i.imgur.com/YEDAzxF.jpeg',
-    githublink: "https://github.com/ParthChandravadiya",
-    linkedinlink: "http://www.linkedin.com/in/parth-chandravadiya-0379a0227",
+    githublink: "https://github.com/notsanidhyak",
+    linkedinlink: "https://www.linkedin.com/in/sanidhyak/",
   },
+
   {
-    name: "Tushar Vyas",
-    position: "DSA Volunteer",
-    imgurl: 'https://i.imgur.com/9tbhAk8.jpeg',
-    githublink: "https://github.com/Tusharv0607",
-    linkedinlink: "https://www.linkedin.com/in/tushar-vyas-67353021b/",
-  },
-  {
-    name: "Tushar agrawal",
-    position: "Android volunteer",
-    imgurl: 'https://i.imgur.com/tiF5yZL.jpeg',
-    githublink: "https://github.com/TusharAgrawal07",
-    linkedinlink: "https://www.linkedin.com/in/tushar-agrawal-401913206",
-  },
-  {
-    name: "Tirth Joshi",
-    position: "Open Source Volunteer",
-    imgurl: 'https://i.imgur.com/4jijt3J.jpeg',
-    githublink: "https://github.com/tirth5828",
-    linkedinlink: "https://www.linkedin.com/in/tirth5828",
-  },
-  {
-    name: "Nitya Patel",
-    position: "ML/AI Volunteer",
-    imgurl: 'https://i.imgur.com/x9R4mYe.jpeg',
-    githublink: "https://github.com/nityapatel19",
-    linkedinlink: "https://www.linkedin.com/in/nityapatel19",
-  },  {
-    name: "Ankur Kumar Shukla",
-    position: "ML/AI Volunteer",
-    imgurl: 'https://i.imgur.com/eVQLYO2.jpeg',
-    githublink: "https://github.com/AnkurKumarShukla",
-    linkedinlink: "https://www.linkedin.com/in/ankur-kumar-shukla-3581b11b8",
-  },  {
-    name: "Pushkaraj Rajaram Kolekar",
-    position: "Cloud Volunteer",
-    imgurl: 'https://i.imgur.com/YrI6Yg0.jpeg',
-    githublink: "https://github.com/2pushkaraj3",
-    linkedinlink: "https://www.linkedin.com/in/pushkaraj-kolekar-5544841bb",
-  },  {
-    name: "Foram Talpada",
+    name: "Nupur Jain",
     position: "Android Volunteer",
-    imgurl: 'https://i.imgur.com/gJMENt5.jpeg',
-    githublink: "https://github.com/foram-patel-0201",
-    linkedinlink: "https://www.linkedin.com/in/foram-talpada-9a0686228",
-  },
-  {
-    name: "Bhavsar Yashesh Sameer",
-    position: "Flutter Volunteer",
-    imgurl: 'https://i.imgur.com/2PwXBUz.jpeg',
-    githublink: "https://github.com/yashesh07",
-    linkedinlink: "https://www.linkedin.com/in/yashesh-bhavsar-a163541b7/",
-  }, {
-    name: "Riya Parikh",
-    position: "Web Dev Volunteer",
-    imgurl: 'https://i.imgur.com/oi6nBQn.jpeg',
-    githublink: "https://github.com/RiyaParikh0112",
-    linkedinlink: "https://www.linkedin.com/in/riya-parikh-27b345196/",
-  }, {
-    name: "Dhruv Rashiya",
-    position: "Web Dev Volunteer",
-    imgurl: 'https://i.imgur.com/MLKreGH.jpeg',
-    githublink: "https://github.com/rashiyadhruv",
-    linkedinlink: "https://www.linkedin.com/in/dhruv-rashiya-6164791b8/",
-  }, {
-    name: "Akhilesh Manda",
-    position: "Flutter Volunteer",
-    imgurl: 'https://i.imgur.com/ncTYFcB.jpeg',
-    githublink: "https://github.com/AkhileshManda",
-    linkedinlink: "https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/",
+    githublink: "https://github.com/Nupur19nj",
+    linkedinlink: "https://www.linkedin.com/in/nupur-jain-097958224/",
   },
 
   {
-    name: "Yash Borikar",
-    position: "Cloud Volunteer",
-    imgurl: 'https://i.imgur.com/Q8LAmj2.jpeg',
-    githublink: "https://github.com/borikaryash",
-    linkedinlink: "https://www.linkedin.com/in/borikaryash/",
+    name: "Dev Parmar",
+    position: "Android Volunteer",
+    githublink: "https://github.com/Spy-boy-07",
+    linkedinlink: "https://www.linkedin.com/in/dev-parmar-51b96a238/",
   },
 
   {
-    name: "Aman Gangwar",
+    name: "Archit Verma",
+    position: "Android Volunteer",
+    githublink: "https://github.com/architverma001",
+    linkedinlink: "https://www.linkedin.com/in/archit-verma-88a040214/",
+  },
+
+  {
+    name: "Aditya Chaplot",
+    position: "Cyber Security Volunteer",
+    githublink: "http://github.com/adielliot37",
+    linkedinlink: "https://www.linkedin.com/in/aditya-chaplot-3a5b6b239",
+  },
+
+  {
+    name: "Krishna Chaitnaya",
+    position: "Cyber Security Volunteer",
+    githublink: "https://github.com/KrishnaChaitanya1822",
+    linkedinlink: "https://www.linkedin.com/in/krishna-chaitanya-y-7221ba22a",
+  },
+
+  {
+    name: "Riya ",
+    position: "Web Dev Volunteer",
+    githublink: "https://github.com/notdatriya",
+    linkedinlink: "https://www.linkedin.com/in/riya1106/",
+  },
+
+  {
+    name: "Shravani Kaware",
+    position: "Web Dev Volunteer",
+    githublink: "https://github.com/ShravaniAK/",
+    linkedinlink: "https://www.linkedin.com/in/shravani-kaware-b3620022a/",
+  },
+
+  {
+    name: "Deepak Gohil",
+    position: "Web Dev Volunteer",
+    githublink: "https://github.com/deepakgohil009",
+    linkedinlink: "https://www.linkedin.com/in/deepakgohil9",
+  },
+
+  {
+    name: "Krish Patel",
+    position: "Web Dev Volunteer",
+    githublink: "https://github.com/krish-patel1003",
+    linkedinlink: "https://www.linkedin.com/in/krish-patel-3b5517225/",
+  },
+
+  {
+    name: "Naman Lambat",
     position: "ML/AI Volunteer",
-    imgurl: 'https://i.imgur.com/vtZy4aQ.jpeg',
-    githublink: "https://github.com/iamangangwar",
-    linkedinlink: "https://www.linkedin.com/in/iamangangwar/",
+    githublink: "https://github.com/NSL-01",
+    linkedinlink: "https://www.linkedin.com/in/naman-lambat-4a5941224",
   },
 
   {
-    name: "Harsh Mehta",
-    position: "Blockchain Volunteer",
-    imgurl: 'https://i.imgur.com/YxN6X0z.jpeg',
-    githublink: "https://github.com/harsh-2O",
-    linkedinlink: "https://www.linkedin.com/in/harshmehta2318/",
+    name: "Anant Bansal",
+    position: "ML/AI Volunteer",
+    githublink: "https://github.com/AnantBansal02",
+    linkedinlink: "https://www.linkedin.com/in/anant-bansal-826201227",
   },
+
   {
-    name: "Kalash Kala",
-    position: "DSA Volunteer",
-    imgurl: 'https://i.imgur.com/IVsTHZa.jpeg',
-    githublink: "https://github.com/kalash-kala",
-    linkedinlink: "https://www.linkedin.com/in/kalash-kala-477b701ba/",
+    name: "Rushabh Babre",
+    position: "ML/AI Volunteer",
+    githublink: "https://github.com/stonerrb",
+    linkedinlink: "https://www.linkedin.com/in/rushabh-babre-808570233/",
   },
+
   {
-    name: "Hritik Kumar",
-    position: "DSA Volunteer",
-    imgurl: 'https://i.imgur.com/oThvI9b.jpeg',
-    githublink: "https://github.com/hritik01478",
-    linkedinlink: "http://www.linkedin.com/in/hritik01478",
+    name: "Begari Uday Kiran",
+    position: "Flutter Volunteer",
+    githublink: "https://github.com/Uday-kiran9147",
+    linkedinlink: "https://www.linkedin.com/in/uday-kiran-73a727233/",
   },
+
+  {
+    name: "Aryan Amit Gupta",
+    position: "Open-Source Volunteer",
+    githublink: "https://github.com/aryanargupta",
+    linkedinlink: "https://www.linkedin.com/in/aryan-gupta-334650227",
+  },
+
+  {
+    name: "Nishant Dev",
+    position: "Video Volunteer",
+    githublink: "https://github.com/devnishant29",
+    linkedinlink: "https://www.linkedin.com/in/nishant-dev-420563235",
+  },
+
+  {
+    name: "Dev Srinivas Agrawal",
+    position: "Video Volunteer",
+    githublink: "https://github.com/AgnesDS",
+    linkedinlink: "https://www.linkedin.com/in/dev-shrinivas-agrawal-949518232",
+  },
+
+  {
+    name: "Shivang Bhargava",
+    position: "Design Volunteer",
+    githublink: "https://github.com/shivang0203",
+    linkedinlink: "https://www.linkedin.com/in/shivang-bhargava-527b78207/",
+  },
+
+  {
+    name: "Shruti Gupta",
+    position: "Design Volunteer",
+    githublink: "https://github.com/shrutiiigupta",
+    linkedinlink: "https://www.linkedin.com/in/shrutigupta0806/",
+  },
+
 ];
