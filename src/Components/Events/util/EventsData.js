@@ -8,31 +8,31 @@
 const EventsData = [
   
   
-  {
-    thumbnail: 'https://i.imgur.com/g7MUpDC.jpeg',
-    title: "The Beginning",
-    date: "20/09/2021 6pm",
-    text: "First ever introductory meeting full of fun and knowledge for the year 2021-22.",
-  },
-  {
-    thumbnail: 'https://i.imgur.com/DHGezFS.jpeg',
-    title: "Life In CSE",
-    date: "21/01/2022 6pm",
-    text: "Get ready to know of this terra-incognita of infinite from a denizen of the world of computers! 😃👨‍💻",
-  },
-  {
-    thumbnail: 'https://i.imgur.com/LWq2NmI.jpeg',
-    title: "Google STEP Intern",
-    date: "04/10/2021 6pm",
-    text: "Get to know all about Google Step Internship Program from the already experienced Ms. Dhriti Chopra",
-  },
+  // {
+  //   thumbnail: 'https://i.imgur.com/g7MUpDC.jpeg',
+  //   title: "The Beginning",
+  //   date: "20/09/2021 6pm",
+  //   text: "First ever introductory meeting full of fun and knowledge for the year 2021-22.",
+  // },
+  // {
+  //   thumbnail: 'https://i.imgur.com/DHGezFS.jpeg',
+  //   title: "Life In CSE",
+  //   date: "21/01/2022 6pm",
+  //   text: "Get ready to know of this terra-incognita of infinite from a denizen of the world of computers! 😃👨‍💻",
+  // },
+  // {
+  //   thumbnail: 'https://i.imgur.com/LWq2NmI.jpeg',
+  //   title: "Google STEP Intern",
+  //   date: "04/10/2021 6pm",
+  //   text: "Get to know all about Google Step Internship Program from the already experienced Ms. Dhriti Chopra",
+  // },
   
-  {
-    thumbnail: 'https://i.imgur.com/PXoOKUA.jpeg',
-    title: "Introduction to AR/VR",
-    date: "02/10/2021 6pm",
-    text: "Introduction to AR/VR was a workshop where basic knowledge regarding Augmented Reality and Unity Engine was given.",
-  },
+  // {
+  //   thumbnail: 'https://i.imgur.com/PXoOKUA.jpeg',
+  //   title: "Introduction to AR/VR",
+  //   date: "02/10/2021 6pm",
+  //   text: "Introduction to AR/VR was a workshop where basic knowledge regarding Augmented Reality and Unity Engine was given.",
+  // },
   {
     thumbnail: 'https://i.imgur.com/FA4YA6H.jpeg',
     title: "Android Study Jam",
