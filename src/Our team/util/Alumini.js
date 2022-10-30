@@ -1,5 +1,12 @@
 export const Alumini = [
   {
+    name: " Anubhav Madhav",
+    position: "DSC Lead 2021-2022",
+    imgurl: "https://i.imgur.com/vI7JdZV.jpeg",
+    githublink: "https://github.com/AnubhavMadhav",
+    linkedinlink: "https://www.linkedin.com/in/anubhav-madhav/",
+  },
+  {
     name: "Akshita Agarwalla",
     position: "DSC Lead 2020-2021",
     imgurl: 'https://i.imgur.com/8931jaR.jpeg',
@@ -13,12 +20,5 @@ export const Alumini = [
     githublink: "https://github.com/aashutoshrathi",
     linkedinlink: "https://www.linkedin.com/in/aashutoshrathi/",
   },
-  {
-    name: " Anubhav Madhav",
-    position: "DSC Lead 2021-2022",
-    imgurl: "https://i.imgur.com/vI7JdZV.jpeg",
-    githublink: "https://github.com/AnubhavMadhav",
-    linkedinlink: "https://www.linkedin.com/in/anubhav-madhav/",
-  }
 
 ];

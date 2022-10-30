@@ -161,7 +161,7 @@ export const Coreteam = [
 
   {
     name: "Srushti Rathva",
-    position: "Women -in-Tech Lead",
+    position: "Women-in-Tech Lead",
     imgurl: 'https://i.imgur.com/LV5MYSEm.jpg',
     githublink: "https://github.com/srushti1hub",
     linkedinlink: "https://www.linkedin.com/in/srushti-rathva-7913961b8/",
@@ -169,7 +169,7 @@ export const Coreteam = [
 
   {
     name: "Hetvi Soni",
-    position: "Women -in-Tech Co-Lead",
+    position: "Women-in-Tech Co-Lead",
     imgurl: 'https://i.imgur.com/lQbaadVm.jpg',
     githublink: "https://github.com",
     linkedinlink: "https://www.linkedin.com/in/hetvi-soni-46a99b1b6/",
@@ -177,7 +177,7 @@ export const Coreteam = [
 
   {
     name: "Ayushi Shukla ",
-    position: "Women -in-Tech Co-Lead",
+    position: "Women-in-Tech Co-Lead",
     imgurl: 'https://i.imgur.com/SOhiaoQm.jpg',
     githublink: "https://github.com/ayushi-8102",
     linkedinlink: "https://www.linkedin.com/in/ayushi-shukla-6502b7228/",
