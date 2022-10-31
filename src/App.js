@@ -9,7 +9,7 @@ import Video from "./Components/Video/Video";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Alumini from "./Our team/Alumini";
 import Coreteam from "./Our team/Coreteam";
-import Mentors from "./Our team/Mentors";
+// import Mentors from "./Our team/Mentors";
 import Volunteers from "./Our team/Volunteers";
 
 import "./App.css";
