@@ -65,7 +65,7 @@ const EventsData = [
   },
   {
     thumbnail: 'https://i.imgur.com/KJA3EzC.jpg',
-    title: "Building Apps with Flultter",
+    title: "Building Apps with Flutter",
     date: "9/10/2022 6pm",
     text: "Topics covered in the session was Introduction to Flutter, Explaining counter app and state management, Exploring common widgets, hands-on experience in UI building session💻 and Intro to Firebase.",
   },
