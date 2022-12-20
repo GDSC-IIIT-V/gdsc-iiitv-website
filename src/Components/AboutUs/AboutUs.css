@@ -15,8 +15,6 @@ body {
   border-radius: 20px;
   padding: 40px;
   z-index: 10;
-}
-.box1.anim {
   animation-name: highlight1;
   animation-delay: 2s;
   animation-duration: 1s;
@@ -39,8 +37,6 @@ body {
   border-radius: 20px;
   padding: 40px;
   z-index: 10;
-}
-.box2.anim {
   animation-name: highlight2;
   animation-delay: 7s;
   animation-duration: 1s;
@@ -63,8 +59,6 @@ body {
   border-radius: 20px;
   padding: 40px;
   z-index: 10;
-}
-.box3.anim {
   animation-name: highlight3;
   animation-delay: 12s;
   animation-duration: 1s;
@@ -165,14 +159,12 @@ p {
   z-index: 10;
   left: 46.5%;
   margin-top: 14%;
-  opacity: 0;
-}
-#sphere3.anim {
   animation-name: greenMove;
   animation-fill-mode: forwards;
   animation-delay: 8s;
   animation-iteration-count: 1;
   animation-duration: 5s;
+  opacity: 0;
 }
 
 @keyframes greenMove {
@@ -201,14 +193,14 @@ p {
   height: 45px;
   left: 0.5%;
   margin-top: 12.1%;
+
   z-index: 10;
-}
-#sphere.anim {
   animation-name: redMove;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 3s;
 }
+
 @keyframes redMove {
   0% {
     transform: translateX(0%);
@@ -233,15 +225,14 @@ p {
   /* top: 68.99%; */
   left: 24.5%;
   z-index: 10;
-  opacity: 0;
-}
-#sphere2.anim {
   animation-name: blueMove;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 5s;
   animation-delay: 3s;
+  opacity: 0;
 }
+
 @keyframes blueMove {
   0% {
     transform: rotateZ(90deg) translateY(0%);
@@ -265,15 +256,14 @@ p {
   position: absolute;
   z-index: 10;
   left: 86%;
-  opacity: 0;
-}
-#sphere4.anim {
   animation-name: yellowMove;
   animation-fill-mode: forwards;
   animation-delay: 13s;
   animation-duration: 3s;
+  opacity: 0;
   animation-iteration-count: 1;
 }
+
 @keyframes yellowMove {
   0% {
     transform: rotateZ(90deg) translateY(0%);
@@ -493,10 +483,10 @@ p {
   #yellExt {
     display: none;
   }
-  h4 {
+  h4{
     font-size: 20px;
   }
-  p {
+  p{
     font-size: 18px;
   }
   .box1 {
@@ -516,56 +506,56 @@ p {
     /* height: 220px; */
     animation: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
 
-  #blueWholePipe {
+  #blueWholePipe{
     left: 18%;
     width: 300px;
   }
-  #redWholePipe {
+  #redWholePipe{
     left: -20%;
     height: 70px;
     margin-top: 22%;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     left: 55%;
     width: 300px;
     margin-top: 21%;
   }
-  #yellowPipe {
+  #yellowPipe{
     height: 70px;
     left: 87%;
   }
 }
 
-@media only screen and (min-width: 1401px) and (max-width: 1439px) {
-  #sphere {
+@media only screen and (min-width: 1401px) and (max-width: 1439px){
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
 
@@ -587,18 +577,18 @@ p {
     animation: none;
   }
 
-  #redWholePipe {
+  #redWholePipe{
     left: -16%;
     margin-top: 15%;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     margin-top: 16%;
   }
-
-  #yellowPipe {
+  
+  #yellowPipe{
     left: 88%;
   }
-}
+} 
 @media only screen and (min-width: 1240px) and (max-width: 1359px) {
   #redExt {
     display: none;
@@ -1356,6 +1346,7 @@ p {
     display: none;
   }
 }
+
 
 @media only screen and (max-width: 399px) and (min-width: 380px) {
   #sphere {
@@ -2124,13 +2115,14 @@ p {
   }
   #yellowPipe {
     display: none;
-    /* position: absolute;
+     /* position: absolute;
     width: 105px;
     height: 60.94px;
     left: 70%;
     margin-top: 120%; */
   }
 }
+
 
 @media only screen and (max-width: 564px) and (min-width: 546px) {
   #line33 {
@@ -2552,7 +2544,7 @@ p {
   }
 
   #blueWholePipe {
-    display: none;
+   display: none;
     /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
@@ -2569,7 +2561,7 @@ p {
     margin-top: 270%; */
   }
   #yellowPipe {
-    display: none;
+   display: none;
     /* width: 75px;
     height: 50px;
     margin-top: -30%;
@@ -2604,7 +2596,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 349px) {
+@media only screen and (min-width: 321px) and (max-width: 349px){
   .mainCont {
     display: flex;
     flex-direction: column;
@@ -2715,35 +2707,36 @@ p {
   }
 }
 
-@media only screen and (max-width: 279px) {
-  #redWholePipe {
+
+@media only screen and (max-width: 279px){
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
   .box1 {
@@ -2789,35 +2782,35 @@ p {
   }
 }
 
-@media only screen and (max-width: 319px) and (min-width: 281px) {
-  #redWholePipe {
+@media only screen and (max-width: 319px) and (min-width: 281px){
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
   .box1 {
@@ -2862,36 +2855,37 @@ p {
     margin-left: 10%;
   }
 }
+
 
 @media only screen and (min-width: 1953px) {
-  #redWholePipe {
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
 }

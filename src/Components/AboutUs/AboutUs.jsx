@@ -20,53 +20,24 @@ import yellExt from "../../assets/images/pipes and spheres/yellowExtension.svg";
 import Line33 from "../../assets/images/Line 33.svg";
 import Line34 from "../../assets/images/Line 34.svg";
 import Line35 from "../../assets/images/Line 35.svg";
-import { useState } from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
 
 export default function AboutUs() {
-  const [inView, setInView] = useState("");
-  const mainRef = useRef(null);
-  const observerCallBack = (entries) => {
-    const [entry] = entries;
-    setInView(entry.isIntersecting);
-  };
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(observerCallBack);
-    if (mainRef.current) observer.observe(mainRef.current);
-
-    return () => {
-      if (mainRef.current) observer.unobserve(mainRef.current);
-    };
-  }, [mainRef]);
-
   return (
-    <div className="main" id="aboutUs" ref={mainRef}>
+    <div class="main" id="aboutUs">
       {/* Top Div */}
       <div class="topCont">
-        <img
-          src={sphere}
-          alt="sphere"
-          id="sphere"
-          className={inView ? "anim" : ""}
-        />
+        <img src={sphere} alt="sphere" id="sphere" />
         <img src={redExt} alt="red-extension-1880" id="redExt" />
         <img src={RedWholePipe} alt="redWholePipe" id="redWholePipe" />
-        <img
-          src={sphere3}
-          alt="sphere"
-          id="sphere3"
-          className={inView ? "anim" : ""}
-        />
+        <img src={sphere3} alt="sphere" id="sphere3" />
         <img src={GreenWholePipe} alt="green-whole-pipe" id="greenWholePipe" />
       </div>
 
       {/* Mid Div containing three boxes and all animations */}
-      <div className="mainCont">
-        <div className={"box1 " + inView ? "anim" : ""}>
+      <div class="mainCont">
+        <div class="box1">
           <h4>Concept of GDSC</h4>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{fontSize: '18px'}}>
             It is a globally recognised developers program for university based
             students by Google. It focuses on bringing people from all
             backgrounds together based on their interests in many of the
@@ -74,18 +45,18 @@ export default function AboutUs() {
             the several current technologies.
           </p>
         </div>
-        <div className={"box2 " + inView ? "anim" : ""}>
+        <div class="box2">
           <h4>Why GDSC?</h4>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{fontSize: '18px'}}>
             You get access to all development resources and opportunities. If
             you are passionate about creating remarkable impact on community,
             GDSC is just the place for you. We empower students to excel in
             their professional and personal lives.
           </p>
         </div>
-        <div className={"box3 " + inView ? "anim" : ""}>
+        <div class="box3">
           <h4>Target Audience</h4>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{fontSize: '18px'}}>
             All students from graduate or undergraduate programs. It doesn't
             matter if you are an absolute beginner or a brilliant expert, as
             long as you are willing to learn you can join us. GDSC is not just
@@ -96,19 +67,9 @@ export default function AboutUs() {
       </div>
 
       {/* Bottom div for design */}
-      <div className="bottomCont">
-        <img
-          src={sphere2}
-          alt="sphere"
-          id="sphere2"
-          className={inView ? "anim" : ""}
-        />
-        <img
-          src={sphere4}
-          alt="sphere"
-          id="sphere4"
-          className={inView ? "anim" : ""}
-        />
+      <div class="bottomCont">
+        <img src={sphere2} alt="sphere" id="sphere2" />
+        <img src={sphere4} alt="sphere" id="sphere4" />
 
         <img src={yellowPipe} alt="yellowpipe" id="yellowPipe" />
         <img src={yellExt} alt="yellow-extension-1880" id="yellExt" />
