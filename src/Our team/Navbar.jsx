@@ -15,17 +15,16 @@ const Navbar = () => {
           </div>
 
           <div className="logotext">
-            <p className="linktext-team txtebold">GDSC</p>
-            <p className="linktext-team">IIIT-V</p>
+            <p className="linktext-team txtebold">GDSC IIITV</p>
+            <p className="linktext-team"></p>
           </div>
         </div>
-        </div>
-        <div className="part2-team">
-          <Link to="/">
-            <img src={home} alt=" " className="homeimg" />
-          </Link>
-        </div>
-      
+      </div>
+      <div className="part2-team">
+        <Link to="/">
+          <img src={home} alt=" " className="homeimg" />
+        </Link>
+      </div>
     </div>
   );
 };

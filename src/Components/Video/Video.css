@@ -92,7 +92,7 @@
 
 @media only screen and (min-width: 1023px) {
   .video {
-    margin-top: 100%;
+    /* margin-top: 100%; */
   }
   .wave{
   padding-bottom: 15%;

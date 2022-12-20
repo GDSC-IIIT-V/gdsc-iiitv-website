@@ -36,13 +36,13 @@
   .logotext-burger{
     display: flex;
     flex-direction: row;
-    width: 65%;
+    /* width: 65%; */
     justify-content: space-evenly;
     align-items: center;
   }
 
   .linktext-burger {
-    width: 69px;
+    /* width: 69px; */
     font-family: avenir;
     font-style: normal;
     font-weight: 400;
@@ -162,7 +162,7 @@ ul{
         transition: all 1s linear;
     }
     .logo-burger{
-        width: 35%;
+        /* width: 35%; */
     }
     .linktext-burger{
         font-size: 14px;

@@ -36,7 +36,7 @@ export default function AboutUs() {
       {/* Mid Div containing three boxes and all animations */}
       <div class="mainCont">
         <div class="box1">
-          <h4>Concept of GDSC</h4>
+          <h4 className="aboutus--heading">Concept of GDSC</h4>
           <p style={{fontSize: '18px'}}>
             It is a globally recognised developers program for university based
             students by Google. It focuses on bringing people from all
@@ -46,7 +46,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div class="box2">
-          <h4>Why GDSC?</h4>
+          <h4 className="aboutus--heading">Why GDSC?</h4>
           <p style={{fontSize: '18px'}}>
             You get access to all development resources and opportunities. If
             you are passionate about creating remarkable impact on community,
@@ -55,7 +55,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div class="box3">
-          <h4>Target Audience</h4>
+          <h4 className="aboutus--heading">Target Audience</h4>
           <p style={{fontSize: '18px'}}>
             All students from graduate or undergraduate programs. It doesn't
             matter if you are an absolute beginner or a brilliant expert, as

@@ -166,6 +166,7 @@
 
     .linktext{
       font-size: 11px;
+      margin: "0 5%"
     }
 
     .part1{
@@ -185,6 +186,10 @@
       width: 30px;
       height: 30px;
     } */
+    .logotext{
+      width: fit-content;
+    }
+
     .comtainerr{
       width: 100%;
     }

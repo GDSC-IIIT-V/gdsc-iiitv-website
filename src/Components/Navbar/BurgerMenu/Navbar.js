@@ -1,29 +1,31 @@
 import './Navbar.css';
 import React from 'react';
-import {useState} from 'react';
+import { useState } from 'react';
 import logo from '../../../assets/images/Logo.svg';
 import drawer from '../../../assets/images/drawer.svg';
 
 const BurgerMenu = () => {
-  const [open, setOpen] = useState (false);
+  const [open, setOpen] = useState(false);
   return (
     <div className="burger-menu">
       <div className="burger-menu-logo">
-        <div style={{display:'flex', justifyContent: 'space-between', width: '88vw', alignItems:'center'}}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', width: '88vw', alignItems: 'center' }}>
           <div className="logo-burger">
             <div>
               <img src={logo} alt="" className="logoimg-burger" />
             </div>
 
             <div className="logotext-burger">
-              <p className="linktext-burger txtebold">GDSC</p>{' '}
-              <p className="linktext-burger">IIIT-V</p>
+              <p className="linktext-burger txtebold">GDSC IIITV</p>{' '}
+              <p className="linktext-burger"></p>
             </div>
           </div>
           <div className="join_us__button">
             <a
               href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/"
-              style={{color: 'white', fontFamily: 'avenir-bold', fontSize: '0.8rem'}}
+              style={{ color: 'white', fontFamily: 'avenir-bold', fontSize: '0.8rem' }}
+              target="_blank"
+              rel="noreferrer"
             >
               Join Us
             </a>
@@ -32,11 +34,11 @@ const BurgerMenu = () => {
 
         <div className="drawer-main">
           {!open &&
-            <i className="drawer" onClick={() => setOpen (true)}>
+            <i className="drawer" onClick={() => setOpen(true)}>
               <img src={drawer} alt="drawer" />
             </i>}
           {open &&
-            <i className="drawer" onClick={() => setOpen (false)}>
+            <i className="drawer" onClick={() => setOpen(false)}>
               <img src={drawer} alt="drawer" />
             </i>}
         </div>

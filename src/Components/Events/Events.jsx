@@ -20,11 +20,11 @@ const Events = () => {
   return (
     <div className="events" id="events">
       <div className="events__title">Our Events</div>
-      <div className="events__curvelines">
+      {/* <div className="events__curvelines">
         <img src={Line33} alt="line-33" className="events__curvelines__line1" />
         <img src={Line34} alt="line-34" className="events__curvelines__line2" />
         <img src={Line35} alt="line-35" className="events__curvelines__line3" />
-      </div>
+      </div> */}
       <div className="events__container">
         <EventsColumn
           className={{
