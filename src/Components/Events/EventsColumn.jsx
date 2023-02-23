@@ -15,10 +15,10 @@ const EventsColumn = ({
   return (
     // adding third column classes conditionally
     <div className={`event-col ${isThirdCol ? "event-col__third-col" : ""}`}>
-      <div className={topVertLineClasses}></div>
+      {/* <div className={topVertLineClasses}></div> */}
       <div className={topConnectorClasses}></div>
       {topEvent}
-      <div className="event-col__vert-line"></div>
+      {/* <div className="event-col__vert-line"></div> */}
       <div className={bottomConnectorClasses}></div>
       {bottomEvent}
     </div>

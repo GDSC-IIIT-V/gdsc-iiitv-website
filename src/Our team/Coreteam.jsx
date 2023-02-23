@@ -47,7 +47,7 @@ function Coreteama() {
           </div>
         </div>
         <div className="lower__section">
-          <div className="leads-title">Core Team</div>
+          <div className="leads-title">Domain Leads</div>
           <div className="leads-content-wrapper">
             {Coreteam.filter((item,idx) => idx >= 1).map((ctm, index) => (
               <div className="leads-content-container" key={index}>

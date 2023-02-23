@@ -57,7 +57,7 @@
   }
 
   .linktext-team {
-    width: 69px;
+    /* width: 69px; */
     height: 26px;
   
     font-family: avenir;
@@ -180,6 +180,7 @@
 
     .linktext-team{
       font-size: 11px;
+      margin: "0 5%";
     }
 
     .part1-team{

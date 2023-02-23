@@ -16,20 +16,7 @@ body {
   padding: 40px;
   z-index: 10;
 }
-.box1.anim {
-  animation-name: highlight1;
-  animation-delay: 2s;
-  animation-duration: 1s;
-  transition-timing-function: ease-in-out;
-}
-@keyframes highlight1 {
-  from {
-    border: none;
-  }
-  to {
-    border: 4px solid #ffbd00;
-  }
-}
+
 .box2 {
   /* height: 290px; */
   width: 390px;
@@ -40,20 +27,7 @@ body {
   padding: 40px;
   z-index: 10;
 }
-.box2.anim {
-  animation-name: highlight2;
-  animation-delay: 7s;
-  animation-duration: 1s;
-  transition-timing-function: ease-in-out;
-}
-@keyframes highlight2 {
-  from {
-    border: none;
-  }
-  to {
-    border: 4px solid #fb260a;
-  }
-}
+
 .box3 {
   /* height: 290px; */
   width: 390px;
@@ -64,20 +38,7 @@ body {
   padding: 40px;
   z-index: 10;
 }
-.box3.anim {
-  animation-name: highlight3;
-  animation-delay: 12s;
-  animation-duration: 1s;
-  transition-timing-function: ease-in-out;
-}
-@keyframes highlight3 {
-  from {
-    border: none;
-  }
-  to {
-    border: 4px solid #3c7afc;
-  }
-}
+
 .topCont {
   height: 300px;
 }
@@ -102,7 +63,7 @@ body {
 
 h4 {
   font-size: 22px;
-  text-align: right;
+  /* text-align: right; */
   font-family: Avenir;
   /* line-height: 22px; */
 }
@@ -165,14 +126,12 @@ p {
   z-index: 10;
   left: 46.5%;
   margin-top: 14%;
-  opacity: 0;
-}
-#sphere3.anim {
   animation-name: greenMove;
   animation-fill-mode: forwards;
   animation-delay: 8s;
   animation-iteration-count: 1;
   animation-duration: 5s;
+  opacity: 0;
 }
 
 @keyframes greenMove {
@@ -201,14 +160,14 @@ p {
   height: 45px;
   left: 0.5%;
   margin-top: 12.1%;
+
   z-index: 10;
-}
-#sphere.anim {
   animation-name: redMove;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 3s;
 }
+
 @keyframes redMove {
   0% {
     transform: translateX(0%);
@@ -233,15 +192,14 @@ p {
   /* top: 68.99%; */
   left: 24.5%;
   z-index: 10;
-  opacity: 0;
-}
-#sphere2.anim {
   animation-name: blueMove;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 5s;
   animation-delay: 3s;
+  opacity: 0;
 }
+
 @keyframes blueMove {
   0% {
     transform: rotateZ(90deg) translateY(0%);
@@ -265,15 +223,14 @@ p {
   position: absolute;
   z-index: 10;
   left: 86%;
-  opacity: 0;
-}
-#sphere4.anim {
   animation-name: yellowMove;
   animation-fill-mode: forwards;
   animation-delay: 13s;
   animation-duration: 3s;
+  opacity: 0;
   animation-iteration-count: 1;
 }
+
 @keyframes yellowMove {
   0% {
     transform: rotateZ(90deg) translateY(0%);
@@ -336,7 +293,7 @@ p {
   }
   h4 {
     font-size: 20px;
-    text-align: right;
+    /* text-align: right; */
     font-family: Avenir;
     /* line-height: 22px; */
   }
@@ -493,10 +450,10 @@ p {
   #yellExt {
     display: none;
   }
-  h4 {
+  h4{
     font-size: 20px;
   }
-  p {
+  p{
     font-size: 18px;
   }
   .box1 {
@@ -516,56 +473,56 @@ p {
     /* height: 220px; */
     animation: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
 
-  #blueWholePipe {
+  #blueWholePipe{
     left: 18%;
     width: 300px;
   }
-  #redWholePipe {
+  #redWholePipe{
     left: -20%;
     height: 70px;
     margin-top: 22%;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     left: 55%;
     width: 300px;
     margin-top: 21%;
   }
-  #yellowPipe {
+  #yellowPipe{
     height: 70px;
     left: 87%;
   }
 }
 
-@media only screen and (min-width: 1401px) and (max-width: 1439px) {
-  #sphere {
+@media only screen and (min-width: 1401px) and (max-width: 1439px){
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
 
@@ -587,18 +544,18 @@ p {
     animation: none;
   }
 
-  #redWholePipe {
+  #redWholePipe{
     left: -16%;
     margin-top: 15%;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     margin-top: 16%;
   }
-
-  #yellowPipe {
+  
+  #yellowPipe{
     left: 88%;
   }
-}
+} 
 @media only screen and (min-width: 1240px) and (max-width: 1359px) {
   #redExt {
     display: none;
@@ -1150,7 +1107,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 20%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1357,6 +1314,7 @@ p {
   }
 }
 
+
 @media only screen and (max-width: 399px) and (min-width: 380px) {
   #sphere {
     display: none;
@@ -1374,7 +1332,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1491,7 +1449,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1587,7 +1545,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 360px) and (min-width: 349px) {
+@media only screen and (max-width: 360px) and (min-width: 350px) {
   #sphere {
     display: none;
   }
@@ -1604,7 +1562,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1802,10 +1760,21 @@ p {
   #line35 {
     display: none;
   }
-  .mainCont {
-    justify-content: space-around;
-    /* width: 122%; */
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40%;
+    margin-bottom: 40%;
   }
+   .mainCont {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    /* width: 122%; */
+  } 
   #redExt {
     display: none;
   }
@@ -1886,7 +1855,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 723px) and (min-width: 621px) {
+@media only screen and (max-width: 1000px) and (min-width: 621px) {
   #line33 {
     display: none;
   }
@@ -2124,13 +2093,14 @@ p {
   }
   #yellowPipe {
     display: none;
-    /* position: absolute;
+     /* position: absolute;
     width: 105px;
     height: 60.94px;
     left: 70%;
     margin-top: 120%; */
   }
 }
+
 
 @media only screen and (max-width: 564px) and (min-width: 546px) {
   #line33 {
@@ -2158,7 +2128,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
     /* margin-left: 32%; */
   }
@@ -2403,14 +2373,14 @@ p {
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2501,18 +2471,19 @@ p {
     height: 1000px;
     margin-top: -20%;
     margin-left: 10%;
+    margin-bottom: 20%;
   }
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2552,7 +2523,7 @@ p {
   }
 
   #blueWholePipe {
-    display: none;
+   display: none;
     /* width: 230px;
     height: 60px;
     transform: rotateZ(270deg);
@@ -2569,7 +2540,7 @@ p {
     margin-top: 270%; */
   }
   #yellowPipe {
-    display: none;
+   display: none;
     /* width: 75px;
     height: 50px;
     margin-top: -30%;
@@ -2604,7 +2575,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 349px) {
+@media only screen and (min-width: 321px) and (max-width: 349px){
   .mainCont {
     display: flex;
     flex-direction: column;
@@ -2612,18 +2583,19 @@ p {
     height: 1000px;
     margin-top: -20%;
     margin-left: 10%;
+    
   }
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2715,35 +2687,36 @@ p {
   }
 }
 
-@media only screen and (max-width: 279px) {
-  #redWholePipe {
+
+@media only screen and (max-width: 279px){
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
   .box1 {
@@ -2789,48 +2762,48 @@ p {
   }
 }
 
-@media only screen and (max-width: 319px) and (min-width: 281px) {
-  #redWholePipe {
+@media only screen and (max-width: 319px) and (min-width: 281px){
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   .box3 {
@@ -2862,36 +2835,37 @@ p {
     margin-left: 10%;
   }
 }
+
 
 @media only screen and (min-width: 1953px) {
-  #redWholePipe {
+  #redWholePipe{
     display: none;
   }
-  #blueWholePipe {
+  #blueWholePipe{
     display: none;
   }
-  #greenWholePipe {
+  #greenWholePipe{
     display: none;
   }
-  #yellowPipe {
+  #yellowPipe{
     display: none;
   }
-  #yellExt {
+  #yellExt{
     display: none;
   }
-  #redExt {
+  #redExt{
     display: none;
   }
-  #sphere {
+  #sphere{
     display: none;
   }
-  #sphere2 {
+  #sphere2{
     display: none;
   }
-  #sphere3 {
+  #sphere3{
     display: none;
   }
-  #sphere4 {
+  #sphere4{
     display: none;
   }
 }

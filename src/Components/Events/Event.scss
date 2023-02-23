@@ -1,12 +1,15 @@
 .event {
+  height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   background-color: white;
   padding: 10% 6%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   &__thumbnail {
     img {
       width: 100%;
@@ -247,8 +250,8 @@
           }
         }
         &__text {
-          font-size: 1.25rem;
-          line-height: 1.25rem;
+          font-size: 1.1rem;
+          line-height: 1.15rem;
         }
       }
     }

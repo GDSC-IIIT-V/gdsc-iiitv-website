@@ -64,7 +64,7 @@ const Team = () => {
             <div className="Team-circle-outer-1">
               <Link to="/Coreteam">
                 {" "}
-                <div className="Team-circle-inner-1 linktxt">Core Team</div>
+                <div className="Team-circle-inner-1 linktxt">Leads</div>
               </Link>
             </div>
           </div>
