@@ -1107,7 +1107,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 20%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1332,7 +1332,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1449,7 +1449,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1545,7 +1545,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 360px) and (min-width: 349px) {
+@media only screen and (max-width: 360px) and (min-width: 350px) {
   #sphere {
     display: none;
   }
@@ -1562,7 +1562,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
   }
   .topCont {
@@ -1760,10 +1760,21 @@ p {
   #line35 {
     display: none;
   }
-  .mainCont {
-    justify-content: space-around;
-    /* width: 122%; */
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40%;
+    margin-bottom: 40%;
   }
+   .mainCont {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    /* width: 122%; */
+  } 
   #redExt {
     display: none;
   }
@@ -1844,7 +1855,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 723px) and (min-width: 621px) {
+@media only screen and (max-width: 1000px) and (min-width: 621px) {
   #line33 {
     display: none;
   }
@@ -2117,7 +2128,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 40%;
     /* margin-left: 32%; */
   }
@@ -2362,14 +2373,14 @@ p {
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2460,18 +2471,19 @@ p {
     height: 1000px;
     margin-top: -20%;
     margin-left: 10%;
+    margin-bottom: 20%;
   }
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2571,18 +2583,19 @@ p {
     height: 1000px;
     margin-top: -20%;
     margin-left: 10%;
+    
   }
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   #sphere {
@@ -2783,14 +2796,14 @@ p {
   .box1 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
 
   .box2 {
     width: 180px;
     /* height: 170px; */
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     animation: none;
   }
   .box3 {
